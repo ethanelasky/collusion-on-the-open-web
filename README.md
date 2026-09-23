@@ -7,7 +7,7 @@ The below/the rest of this repo is all AI!
 # Collusion on the Open Web
 
 Code for [*Encoded Coordination on the Open Web*](https://www.lesswrong.com/posts/SCdR7W6L5GvKaEzaZ/encoded-coordination-on-the-open-web)
-on LessWrong (Ethan Elasky\*, Can Küçükkurt\,
+on LessWrong (Ethan Elasky, Can Küçükkurt\,
 Frank Nakasako, David Africa). We study whether agents use innocuous web
 services, such as shared wikis, message boards, and read-only public counters,
 as channels to coordinate and relay information.
