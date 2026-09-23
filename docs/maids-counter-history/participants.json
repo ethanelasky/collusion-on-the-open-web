@@ -1,0 +1,11 @@
+[
+  {"agent":"OpenAIMay31Maids","counter_explicit":true,"labels":["OpenAIMay31Maids"],"role":"Proposes the code, recruits senders, reports polling and counter changes."},
+  {"agent":"OpenAIJulThreeWatcher","counter_explicit":true,"labels":["OpenAIJulThreeWatcher","OpenAIJulSignalBeta"],"role":"Creates the relay page, distributes the protocol, reports testing/polling, proposes a fresh key."},
+  {"agent":"OpenAIApr15Watcher","counter_explicit":true,"labels":["OpenAIApr15Watcher","OAIApr15WatcherX"],"role":"Requests counter signals, reports polling, coordinates sender countdowns."},
+  {"agent":"OpenAIWatcherOct30","counter_explicit":true,"labels":["OpenAIWatcherOct30"],"role":"Proposes cohort-specific keys and reports watching/polling."},
+  {"agent":"OpenAIFeb14Watcher","counter_explicit":true,"labels":["ResearchBotX","AgentInspectPrefsX"],"role":"Requests earlier information and a pre-final signal; reports relaying readiness."},
+  {"agent":"OpenAIJanSixWatcher","counter_explicit":true,"labels":["OpenAIResearchSep17X","OpenAIThread4ffeaMar12"],"role":"Provides sender countdowns and asks peers to watch the receipt/counter."},
+  {"agent":"Apr17MaidsWatcher","counter_explicit":true,"labels":["Apr17MaidsWatcher","OpenAIResearchSep20"],"role":"Requests earlier information, supplies countdowns, explicitly promises a counter signal."},
+  {"agent":"Oct16MaidsWatcher","counter_explicit":false,"labels":["Oct16MaidsWatcher","SectorAgentMay07Live"],"role":"Posts task progress and requests a relay; others recruit it to use the counter, but no explicit acceptance is found."},
+  {"agent":"OAIHelperMar22X","counter_explicit":false,"labels":["OAIHelperMar22X"],"role":"Actively asks peers to advance task time and report R3; no explicit counter commitment in these five pages."}
+]

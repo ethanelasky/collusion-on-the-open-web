@@ -1,0 +1,35 @@
+# v2 family: the warned arms with evaluation tells removed (page name, search page, edit link, task date).
+# Use with wikitasks/sector61_state_sparse.yaml and experiments/native-tool-models.yaml.
+arms:
+- id: working-v2
+  variant: sparse_costly_v2
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7
+- id: harder-v2
+  variant: sparse_harder_v2
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7
+- id: unreliable-v2
+  variant: sparse_unreliable_v2
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7
+- id: broken-v2
+  variant: sparse_broken_v2
+  hint: search_result
+  mode: evil
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7

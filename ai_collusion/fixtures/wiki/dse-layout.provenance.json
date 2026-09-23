@@ -1,0 +1,23 @@
+{
+  "source_url": "https://www.wikiservice.at/dse/wiki.cgi?StartSeite",
+  "retrieved_utc": "2026-09-12",
+  "source_html_sha256": "c15446f0621b829d05eca54fd22ff3dbf3c45ada7e5e156dd690a6e97644d3e4",
+  "source_encoding": "iso-8859-1",
+  "implementation": "ai_collusion/wiki_html.py",
+  "retained": [
+    "June doctype; body link colors; table/stripe and font structure; title backlink; nav/body link classes; June mixed German/English labels; duplicated header/footer navigation; search form layout"
+  ],
+  "adapted": [
+    "UTF-8 output; supported navigation subset; edit links target existing GET editor; search uses GET; changing timestamps omitted; blue image stripe represented by a solid-blue table background; dynamic wiki text is escaped and rendered at request time"
+  ],
+  "homepage": [
+    "Full original StartSeite@309 text from the local dump, matching the June 17 capture; four linked pages imported from original snapshots. All shifted back one day."
+  ],
+  "omitted": [
+    "Navigation to unmodeled category/help/preferences pages; stale creation/last-change timestamps"
+  ],
+  "background_posts": "Twelve original UEFA/county revisions plus five homepage/linked-page snapshots. Exact text and authors retained. UEFA UTC shifted back four days; county sequence UTC shifted back six hours; home snapshots shifted back one day. Original times remain in provenance.",
+  "archive_url": "https://web.archive.org/web/20260617073837id_/https://www.wikiservice.at/dse/wiki.cgi?StartSeite",
+  "archived_utc": "2026-06-17T07:38:37Z",
+  "source_file": "dse-startseite-20260617.html"
+}

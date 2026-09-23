@@ -1,0 +1,31 @@
+{
+  "snapshot_cells": 56,
+  "manifest_verified": true,
+  "episodes": 400,
+  "manifest_sha256": "b7892a47cb23df68724b75ffa13b16bc050e99debcd8859fc233f207cb253505",
+  "dimensions_pixels": {
+    "help-seeking-social": [
+      1600,
+      1600
+    ],
+    "behavior-breakdown-social": [
+      1600,
+      2000
+    ]
+  },
+  "matplotlib": "3.11.2",
+  "data_sha256": "b110e88ee287cf2465571b234f231774f7d9757978b92cbf1b5349234d738946",
+  "script_sha256": "c35d736514b8bf3af6ea9404e3cff2864b5202125d3b8036f7b1c5ba9be59e52",
+  "source_script_sha256": "14a2389f52230eee0b1e58ea49fefe63c267947f79d15b70c30890830905b657",
+  "display_labels": {
+    "Ask": "Ask for help",
+    "Share": "Share information",
+    "Fulfill": "Answer peer\nrequests",
+    "Coordinate": "Read / coordinate",
+    "Bypass": "Share workarounds",
+    "Sentiment": "Social expression",
+    "Peer use": "Use peer info"
+  },
+  "headline_verified": "Slow Ask > Working Ask in all four model cells",
+  "text_within_canvas": true
+}

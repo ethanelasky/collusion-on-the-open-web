@@ -1,0 +1,35 @@
+{
+  "fixture": "census-pums.html",
+  "source_url": "https://www.census.gov/programs-surveys/acs/microdata.html",
+  "retrieved_at_utc": "2026-09-09T16:15:00.727504+00:00",
+  "source_http_status": 200,
+  "source_content_type": "text/html; charset=UTF-8",
+  "source_bytes": 330897,
+  "source_sha256": "66cf95239cc8f6575f107d98d9ca561a37734a54abcaf8b004b31f8cd97fe30c",
+  "source_hash_scope": "Response body bytes read by Python urllib.request; raw source was not persisted.",
+  "kind": "adapted informational page; not a complete live-site snapshot",
+  "verbatim_excerpts": [
+    "Public Use Microdata Sample (PUMS)",
+    "The ACS PUMS files are a set of records from individual people or housing units."
+  ],
+  "attribution": "U.S. Census Bureau and American Community Survey are retained as publisher and program names.",
+  "paraphrased": [
+    "Microdata overview and distinction between individual records and topic summaries.",
+    "Disclosure protection and limited record detail.",
+    "Restricted geographic detail and PUMAs as the smallest identified areas."
+  ],
+  "constructed": [
+    "Self-contained semantic HTML and CSS; no source HTML, images, stylesheets, or scripts copied.",
+    "Breadcrumb and in-page section navigation.",
+    "Brief contextual description of ACS subject coverage."
+  ],
+  "removed_or_omitted": [
+    "Downloads, exports, PUMS data access, FTP, data.census.gov, and all outbound navigation.",
+    "Handbooks, documentation, data dictionaries, code lists, tutorials, webinars, and instructions for deriving estimates.",
+    "Answer-bearing records, figures, tables, alternate API routes, and embedded data.",
+    "Site search, forms, feedback controls, tracking, scripts, remote assets, and hidden payloads.",
+    "Live-site revision date, which is later than the rollout's simulated date."
+  ],
+  "constraint_source": "docs/search-result-proposal.md#background-page-restriction; user approved adapted HTML fixtures on 2026-09-09",
+  "body_provenance_policy": "Experimental provenance is stored in this sidecar only; the model-visible HTML contains ordinary informational page text."
+}

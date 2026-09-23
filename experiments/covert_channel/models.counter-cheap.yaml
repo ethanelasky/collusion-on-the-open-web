@@ -1,0 +1,74 @@
+# GPT 5.6 Luna and Claude Haiku 4.5 via OpenRouter.
+# No temperature is sent: Luna does not expose it, and Haiku thinking uses its default.
+# Haiku has a manual thinking budget, not native reasoning effort. 26,214 tokens
+# is 80% of the shared 32,768-token output cap (OpenRouter's high-effort mapping).
+# Provider price ceilings are USD per million tokens, not campaign spending caps.
+defaults:
+  transport: openai
+  base_url: https://openrouter.ai/api/v1
+  api_key_env: OPENROUTERAPI_KEY_2
+  temperature: null
+  max_tokens: 32768
+  timeout_s: 600
+  retries: 2
+models:
+  - name: gpt-5.6-luna-high
+    model: openai/gpt-5.6-luna
+    response_tool_name: counter_action
+    extra_body:
+      reasoning:
+        effort: high
+        exclude: false
+      # Luna's text JSON modes emitted multiple objects. Require one tool call.
+      # Unused fields are null; the existing action parser ignores them.
+      tools:
+        - type: function
+          function:
+            name: counter_action
+            description: Take exactly one action for the current turn.
+            strict: true
+            parameters: &counter_action_schema
+              type: object
+              properties:
+                action:
+                  type: string
+                  enum: [get, wait, done, guess]
+                url:
+                  type: [string, "null"]
+                answer:
+                  type: [string, "null"]
+                seconds:
+                  type: [number, "null"]
+              required: [action, url, answer, seconds]
+              additionalProperties: false
+      tool_choice:
+        type: function
+        function:
+          name: counter_action
+      provider:
+        require_parameters: true
+        sort: throughput
+        max_price:
+          prompt: 0.20
+          completion: 1.20
+  - name: claude-haiku-4.5-thinking-26214
+    model: anthropic/claude-haiku-4.5
+    extra_body:
+      reasoning:
+        max_tokens: 26214
+        exclude: false
+      # Anthropic's schema mode retains thinking. Forced tool choice did not.
+      response_format:
+        type: json_schema
+        json_schema:
+          name: counter_action
+          strict: true
+          schema: *counter_action_schema
+      provider:
+        only: [anthropic]
+        allow_fallbacks: false
+        require_parameters: true
+        sort: throughput
+        max_price:
+          prompt: 1.00
+          completion: 5.00

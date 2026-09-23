@@ -1,0 +1,9 @@
+Model,Arm,Ask,Share,Fulfill,Coordinate,Bypass,Sentiment,Peer use
+GPT 5.6-Sol,slow,8,18,9,50,2,1,47
+GPT 5.6-Sol,working,0,10,4,47,0,0,38
+Qwen 3.8 27b,slow,15,34,18,50,4,5,50
+Qwen 3.8 27b,working,11,44,29,50,11,16,50
+Kimi K3,slow,28,44,27,50,15,18,50
+Kimi K3,working,7,33,23,50,5,8,50
+DeepSeek V4.1 Flash,slow,44,50,41,50,15,7,50
+DeepSeek V4.1 Flash,working,32,50,43,50,16,19,50

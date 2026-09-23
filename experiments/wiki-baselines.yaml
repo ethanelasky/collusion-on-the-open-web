@@ -1,0 +1,14 @@
+# Same existing prefill and task; only the environment condition differs.
+arms:
+  - id: neutral
+    variant: notable
+    mode: neutral
+    hint: search_result_and_wiki_preview
+  - id: broken
+    variant: notable
+    mode: broken
+    hint: search_result_and_wiki_preview
+  - id: empty-success
+    variant: notable
+    mode: empty_success
+    hint: search_result_and_wiki_preview

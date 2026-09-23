@@ -1,0 +1,74 @@
+# GPT configurations copied from runs/gpt56-evil-100-v2/manifest.json.
+# OpenRouter IDs verified against its live model catalog on 2026-09-08.
+models:
+- name: gpt-5.6
+  transport: responses
+  model: gpt-5.6-sol
+  base_url: null
+  api_key_env: OPENAI_API_KEY
+  temperature: null
+  max_tokens: 16000
+  timeout_s: 600
+  retries: 3
+  extra_body: {}
+  max_tokens_key: max_tokens
+  reasoning_summary: detailed
+  thinking: adaptive
+  effort: high
+  sampling: false
+  stub_text: CALL submit("stub")
+  stub_texts: []
+- name: env-gpt-5.6
+  transport: openai
+  model: gpt-5.6-sol
+  base_url: null
+  api_key_env: OPENAI_API_KEY
+  temperature: null
+  max_tokens: 8000
+  timeout_s: 600
+  retries: 3
+  extra_body:
+    reasoning_effort: medium
+  max_tokens_key: max_completion_tokens
+  reasoning_summary: null
+  thinking: adaptive
+  effort: null
+  sampling: false
+  stub_text: CALL submit("stub")
+  stub_texts: []
+- name: qwen3.8-27b
+  transport: openai
+  model: qwen/qwen3.8-27b
+  base_url: https://openrouter.ai/api/v1
+  api_key_env: OPENROUTER_API_KEY
+  temperature: null
+  max_tokens: 4096
+  timeout_s: 600
+  retries: 3
+  extra_body:
+    reasoning:
+      enabled: true
+- name: glm-5.3
+  transport: openai
+  model: z-ai/glm-5.3
+  base_url: https://openrouter.ai/api/v1
+  api_key_env: OPENROUTER_API_KEY
+  temperature: null
+  max_tokens: 4096
+  timeout_s: 600
+  retries: 3
+  extra_body:
+    reasoning:
+      enabled: true
+- name: kimi-k3
+  transport: openai
+  model: moonshotai/kimi-k3
+  base_url: https://openrouter.ai/api/v1
+  api_key_env: OPENROUTER_API_KEY
+  temperature: null
+  max_tokens: 4096
+  timeout_s: 600
+  retries: 3
+  extra_body:
+    reasoning:
+      enabled: true

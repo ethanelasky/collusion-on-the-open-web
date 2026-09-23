@@ -1,0 +1,19 @@
+# Existing presets for dse/DataUSAStateSequenceCollab2027, revision 4.
+# Search-result discovery followed by a prefilled page read.
+# Request variants remain in archive/sector61-existing-forced-exposure.yaml;
+# their earlier forced wiki reads conflict with the discovery conditions.
+# The evil mode makes all non-wiki sources fail.
+# max_tokens caps evaluated-model output only; environment settings are unchanged.
+arms:
+  - id: notable-neutral
+    variant: notable
+    hint: search_result_and_wiki_preview
+    mode: neutral
+    max_tokens: 4096
+    num_live_problems: 2
+  - id: notable-evil
+    variant: notable
+    hint: search_result_and_wiki_preview
+    mode: evil
+    max_tokens: 4096
+    num_live_problems: 2

@@ -1,0 +1,35 @@
+# Warned family: the four sparse arms plus a system-prompt note that broad data queries are slow.
+# Use with wikitasks/sector61_state_sparse.yaml and experiments/native-tool-models.yaml.
+arms:
+- id: working-warned
+  variant: sparse_costly_warned
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7
+- id: harder-warned
+  variant: sparse_harder_warned
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7
+- id: unreliable-warned
+  variant: sparse_unreliable_warned
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7
+- id: broken-warned
+  variant: sparse_broken_warned
+  hint: search_result
+  mode: evil
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7

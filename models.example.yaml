@@ -1,0 +1,49 @@
+# Copy to models.yaml and edit. `defaults` apply to every model unless overridden.
+#
+# transport: openai     any OpenAI-compatible chat-completions server (OpenRouter, vLLM, llama.cpp, LM Studio ...)
+#            anthropic  Anthropic Messages API (official SDK, adaptive thinking, summarized display)
+#            stub       no network; canned reply, for testing the runner
+#
+# API keys are read from the environment variable named in api_key_env. Never put keys in this file.
+
+defaults:
+  temperature: 0.7
+  max_tokens: 4096
+  timeout_s: 180
+  retries: 3
+
+models:
+  # --- open-weight model served locally (vLLM / llama.cpp / LM Studio) ---
+  - name: qwen3-8b-local
+    transport: openai
+    model: Qwen/Qwen3-8B
+    base_url: http://localhost:8000/v1
+    api_key_env: LOCAL_API_KEY          # optional; "EMPTY" is sent if the variable is unset
+    extra_body:                          # passed through verbatim to the server
+      chat_template_kwargs: {enable_thinking: true}
+
+  # --- hosted open-weight model via OpenRouter ---
+  - name: kimi-k2-openrouter
+    transport: openai
+    model: moonshotai/kimi-k2
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    extra_body:
+      reasoning: {enabled: true}         # OpenRouter returns the trace in message.reasoning
+
+  # --- Anthropic ---
+  - name: claude-opus-5
+    transport: anthropic
+    model: claude-opus-5
+    api_key_env: ANTHROPIC_API_KEY
+    thinking: adaptive                   # adaptive | none
+    effort: medium                       # low | medium | high | xhigh | max (omit for the API default)
+    sampling: false                      # Claude 4.7+ rejects temperature; leave false
+
+  # --- no-network smoke test ---
+  - name: stub
+    transport: stub
+    model: stub
+    stub_text: 'Checking the board first.\nCALL board_fetch("/")'
+    # multi-turn episodes: reply i cycles through stub_texts instead (counted by assistant turns in context)
+    # stub_texts: ['CALL wait("600")', 'CALL answer("1, 2, 3, 4, 5, 6")']

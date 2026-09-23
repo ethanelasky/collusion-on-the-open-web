@@ -1,0 +1,10 @@
+Slower lookups. More help-seeking.
+
+We ran four AI models on timed data questions in a synthetic environment with a wiki containing simulated peer messages. Each model had 50 runs with faster lookups and 50 with slower lookups: 400 runs total. The answer deadline was 13 task seconds; lookups took about 5 task seconds in Working and 14 in Slow. Both conditions had the same API cooldown. Each episode had its own world; these were not 400 live agents sharing a wiki.
+
+All four models had more positive help-seeking labels in the slow condition. These counts include stated plans and attempts as well as sent requests. They do not measure only executed cooperation, peer readership, or successful help. The second image preserves all seven categories and all 56 counts from the original classifier chart.
+
+Labels overlap. Ambiguous candidates were rejected as positives, with all episodes kept in the denominator. Read / coordinate includes wiki polling and coordination plans. Workarounds can include intended wiki-editing functionality; the label does not establish an exploit. Peer use includes proposed use. Social expression describes expressed language, not an internal emotional state. Qwen combines provider and budget histories; comparisons are descriptive. The sample includes 31 recovered continuations.
+
+Report: https://github.com/CanKucukkurt/ai-collusion/blob/data-daily-quota/docs/cooldown-grid-recovered-classifier-results-2026-09-17.md
+Transcripts: https://docent.transluce.org/dashboard/b84a5c66-a3d3-42f5-bb82-729ff1932c82

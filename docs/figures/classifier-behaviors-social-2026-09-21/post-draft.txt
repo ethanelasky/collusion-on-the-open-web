@@ -1,0 +1,5 @@
+Slower lookups. More help-seeking.
+
+We gave 4 AI models timed data questions and a wiki with simulated peers. All 4 showed more help-seeking in the slow condition.
+
+400 runs. Counts include plans, attempts and sent requests. Full breakdown in image 2.

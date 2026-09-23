@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+runs/_old-prompt-format/
+models.yaml
+!experiments/color_game/models.yaml
+.env
+notebooks/.ipynb_checkpoints/
+reports/color-game/

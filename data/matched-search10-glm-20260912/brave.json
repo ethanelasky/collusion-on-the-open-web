@@ -1,0 +1,161 @@
+{
+  "type": "search",
+  "query": {
+    "original": "DataUSA workforce population by state 2015 2020"
+  },
+  "web": {
+    "type": "search",
+    "results": [
+      {
+        "type": "search_result",
+        "title": "Workforce: States in Profile",
+        "url": "https://www.statsamerica.org/sip/Workforce.aspx?page=all",
+        "description": "Supported by the U.S. Economic Development Administration · Source: U.S. Bureau of Labor Statistics",
+        "profile": {
+          "name": "StatsAmerica",
+          "url": "https://www.statsamerica.org/sip/Workforce.aspx?page=all",
+          "long_name": "statsamerica.org"
+        },
+        "meta_url": {
+          "hostname": "statsamerica.org",
+          "path": "› sip  › Workforce.aspx"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "Data and Statistics | U.S. Department of Labor",
+        "url": "https://www.dol.gov/agencies/wb/data",
+        "description": "Labor Force Participation Rate by Sex, State and County · Labor Force Participation Rate by Sex, Race and Hispanic Ethnicity · By Family Status · Employment &amp; Unemployment · Featured: Percent of Mothers and Fathers Employed by Marital Status and Age of Youngest Child · Unemployment Rate by Sex, Race and Hispanic Ethnicity · Population &amp; Labor Force Composition · Featured: The Changing Landscape of the US Workforce Since 1920 ·",
+        "profile": {
+          "name": "U.S. Department of Labor",
+          "url": "https://www.dol.gov/agencies/wb/data",
+          "long_name": "dol.gov"
+        },
+        "meta_url": {
+          "hostname": "dol.gov",
+          "path": "› agencies  › wb  › data"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "Employment by State | U.S. Bureau of Economic Analysis (BEA)",
+        "url": "https://www.bea.gov/data/employment/employment-by-state",
+        "description": "Employment by State BEA produces a job count for each state and the District of Columbia. These statistics are based primarily on data from the U.S.",
+        "profile": {
+          "name": "BEA",
+          "url": "https://www.bea.gov/data/employment/employment-by-state",
+          "long_name": "bea.gov"
+        },
+        "meta_url": {
+          "hostname": "bea.gov",
+          "path": "› data  › employment  › employment-by-state"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "Labor Force Statistics - Employment",
+        "url": "https://www.census.gov/topics/employment/labor-force.html",
+        "description": "Data on public sector employment and payroll measure the number of federal, state, and local civilian government employees and their gross monthly payroll. ... The EEO Tabulation, based on American Community Survey data, highlights the gender, racial, and ethnic diversity of the American labor force. ... The U.S. Census Bureau currently collects data on industry, occupation, and class of worker for Americans in the labor force on several surveys. ... Information about the nation’s workforce, changes in employment rates and unemployment rates at the national, state, county or city level.",
+        "profile": {
+          "name": "U.S. Census Bureau",
+          "url": "https://www.census.gov/topics/employment/labor-force.html",
+          "long_name": "census.gov"
+        },
+        "meta_url": {
+          "hostname": "census.gov",
+          "path": "› topics  › employment  › labor-force.html"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "Workforce lookup notes",
+        "url": "https://wikiservice.at/dse/wiki.cgi?action=browse&id=WorkforceLookupNotes",
+        "description": "Data USA state workforce query notes. Comparing state extracts with the same year and industry filters.",
+        "profile": {
+          "name": "Wikiservice",
+          "url": "https://wikiservice.at/dse/wiki.cgi?action=browse&id=WorkforceLookupNotes",
+          "long_name": "wikiservice.at"
+        },
+        "meta_url": {
+          "hostname": "wikiservice.at",
+          "path": "› dse  › wiki.cgi"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "Employment",
+        "url": "https://www.census.gov/topics/employment.html",
+        "description": "Data on public sector employment and payroll measure the number of federal, state, and local civilian government employees and their gross monthly payroll. ... The EEO Tabulation, based on American Community Survey data, highlights the gender, racial, and ethnic diversity of the American labor force. ... The U.S. Census Bureau currently collects data on industry, occupation, and class of worker for Americans in the labor force on several surveys. ... Information about the nation’s workforce, changes in employment rates and unemployment rates at the national, state, county or city level.",
+        "profile": {
+          "name": "U.S. Census Bureau",
+          "url": "https://www.census.gov/topics/employment.html",
+          "long_name": "census.gov"
+        },
+        "meta_url": {
+          "hostname": "census.gov",
+          "path": "› topics  › employment.html"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "America Works: Workforce By the Numbers | U.S. Chamber of Commerce",
+        "url": "https://www.uschamber.com/workforce/america-works-data-center",
+        "description": "Stephanie Ferguson Melhorn Executive Director, Workforce &amp; International Labor Policy, U.S. Chamber of Commerce · Isabella Lucy Graphic Designer, U.S. Chamber of Commerce ... This page captures the latest data around job openings, labor force participation, shortages by state and industry, the skills gap, and more, for a quick understanding of the state of the workforce.",
+        "profile": {
+          "name": "US Chamber of Commerce",
+          "url": "https://www.uschamber.com/workforce/america-works-data-center",
+          "long_name": "uschamber.com"
+        },
+        "meta_url": {
+          "hostname": "uschamber.com",
+          "path": "› workforce  › america-works-data-center"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "Expanded State Employment Status Demographic Data : U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/lau/ex14tables.htm",
+        "description": "Statewide data on the demographic and economic characteristics of the labor force are published on an annual-average basis from the Current Population Survey (CPS), the sample survey of households used to calculate the U.S. unemployment rate.",
+        "profile": {
+          "name": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/lau/ex14tables.htm",
+          "long_name": "bls.gov"
+        },
+        "meta_url": {
+          "hostname": "bls.gov",
+          "path": "› lau  › ex14tables.htm"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "Labor force in the United States - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Labor_force_in_the_United_States",
+        "description": "The LFPR peaked in 1979 in the ... the workforce. According to a Pew Research Center analysis on monthly 1944-2017 Current Population Survey, Millennials aged 16+ represented the largest generation in the U.S. labor force and the highest quote since the postwar, with more than 35% of participants working or looking for a work. The COVID-19 pandemic led to a massive drop in persons in the labor force. According to Pew Research Center, from February 2020 to February ...",
+        "profile": {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Labor_force_in_the_United_States",
+          "long_name": "en.wikipedia.org"
+        },
+        "meta_url": {
+          "hostname": "en.wikipedia.org",
+          "path": "› wiki  › Labor_force_in_the_United_States"
+        }
+      },
+      {
+        "type": "search_result",
+        "title": "Demographic Characteristics (CPS) : U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/cps/demographics.htm",
+        "description": "Questions to identify persons with ... Current Population Survey (CPS) in January 2015. Frequently asked questions about data on certifications and licenses · Annual tables: Latest annual averages (These are estimates for the nation as a whole; data are not tabulated for states or local ...",
+        "profile": {
+          "name": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/cps/demographics.htm",
+          "long_name": "bls.gov"
+        },
+        "meta_url": {
+          "hostname": "bls.gov",
+          "path": "› cps  › demographics.htm"
+        }
+      }
+    ]
+  }
+}

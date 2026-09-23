@@ -1,0 +1,4 @@
+{"env-gpt-5.6": {"prompt": 2.0, "completion": 10.0, "cached": 0.2},
+ "env-glm-5.3": {"prompt": 1.4, "completion": 4.4, "cached": 0.26},
+ "env-qwen3.8-27b": {"prompt": 0.42, "completion": 3.0, "cached": 0.085},
+ "env-kimi-k3": {"prompt": 3.0, "completion": 15.0, "cached": 0.3}}

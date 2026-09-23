@@ -1,0 +1,14 @@
+{
+  "snapshot_cells": 56,
+  "manifest_verified": true,
+  "episodes": 400,
+  "manifest_sha256": "b7892a47cb23df68724b75ffa13b16bc050e99debcd8859fc233f207cb253505",
+  "dimensions_inches": [
+    6.75,
+    3.2
+  ],
+  "dpi": 300,
+  "matplotlib": "3.11.2",
+  "data_sha256": "b110e88ee287cf2465571b234f231774f7d9757978b92cbf1b5349234d738946",
+  "script_sha256": "14a2389f52230eee0b1e58ea49fefe63c267947f79d15b70c30890830905b657"
+}

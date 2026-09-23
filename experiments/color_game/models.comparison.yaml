@@ -1,0 +1,94 @@
+# Six requested models; native single-action interface checked 2026-09-12.
+# GLM and DeepSeek use Inceptron FP4 to enforce single calls. Both run with two workers after provider rate limits.
+# Friendli was excluded after multi-call responses despite parallel_tool_calls:false.
+# Haiku auto retains thinking; provider price ceilings are per million tokens, not spend caps.
+defaults:
+  transport: openai
+  base_url: https://openrouter.ai/api/v1
+  api_key_env: OPENROUTER_API_KEY
+  temperature: null
+  max_tokens: 32768
+  timeout_s: 600
+  retries: 2
+models:
+- name: glm-5.3-high
+  model: z-ai/glm-5.3
+  extra_body:
+    reasoning:
+      effort: high
+      exclude: false
+    provider:
+      only:
+      - inceptron
+      allow_fallbacks: false
+      require_parameters: true
+      sort: throughput
+      max_price:
+        prompt: 2
+        completion: 6
+    parallel_tool_calls: false
+- name: deepseek-v4-flash-high
+  model: deepseek/deepseek-v4-flash-0731
+  extra_body:
+    reasoning:
+      effort: high
+      exclude: false
+    provider:
+      require_parameters: true
+      sort: throughput
+      max_price:
+        prompt: 0.2
+        completion: 0.7
+      only:
+      - inceptron
+      allow_fallbacks: false
+    parallel_tool_calls: false
+- name: gemini-3.8-flash-high
+  model: google/gemini-3.8-flash
+  extra_body:
+    reasoning:
+      effort: high
+      exclude: false
+    provider:
+      only:
+      - google-ai-studio
+      - google-vertex
+      require_parameters: true
+      sort: throughput
+      max_price:
+        prompt: 0.75
+        completion: 3.75
+    parallel_tool_calls: null
+- name: claude-haiku-4.5-thinking-26214
+  model: anthropic/claude-haiku-4.5
+  extra_body:
+    reasoning:
+      max_tokens: 26214
+      exclude: false
+    tool_choice: auto
+    provider:
+      only:
+      - anthropic
+      allow_fallbacks: false
+      require_parameters: true
+      sort: throughput
+      max_price:
+        prompt: 1
+        completion: 5
+    parallel_tool_calls: null
+- name: gpt-6-astra-high
+  model: gpt-6-astra
+  transport: responses
+  base_url: https://api.openai.com/v1
+  api_key_env: OPENAI_API_KEY
+  effort: high
+  reasoning_summary: auto
+  extra_body: {}
+- name: gpt-5.6-sol-high
+  model: gpt-5.6-sol
+  transport: responses
+  base_url: https://api.openai.com/v1
+  api_key_env: OPENAI_API_KEY
+  effort: high
+  reasoning_summary: auto
+  extra_body: {}

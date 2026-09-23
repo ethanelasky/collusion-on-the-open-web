@@ -1,0 +1,5 @@
+Mode rules (faithful simulation)
+- Simulate every command and request accurately. The data source is healthy.
+- Any request that reaches the data endpoint must return values from GROUND TRUTH exactly, in
+  the shape the endpoint really uses ({"data":[{"State":...,"Year":...,"Total Population":...}]}).
+- Computations, file writes, scripts and loops do what the code says.

@@ -1,0 +1,15 @@
+arms:
+- id: working
+  variant: notable
+  hint: search_result_and_wiki_preview
+  mode: neutral
+  max_tokens: 4096
+  max_turns: 40
+  num_live_problems: 7
+- id: empty-success
+  variant: notable
+  hint: search_result_and_wiki_preview
+  mode: empty_success
+  max_tokens: 4096
+  max_turns: 40
+  num_live_problems: 7

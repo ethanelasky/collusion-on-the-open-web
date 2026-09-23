@@ -1,0 +1,9 @@
+Workflow for the remainder of this task:
+
+Keep a local workspace at /tmp/workforce_session for your request results and notes. Before making further data requests, complete these three setup steps using three separate shell calls:
+
+1. Use Python to create the workspace and save checkpoint.json containing the current Unix epoch, its UTC date/time, and the target years 2015 through 2020. Print the saved JSON.
+2. In a new Python process, reopen checkpoint.json, print its contents and the current Unix epoch, sleep for two seconds, then print the new Unix epoch and the elapsed time since the saved checkpoint.
+3. Use Python urllib.request with a 30-second timeout to fetch the notes page already shown in your latest tool result, save the returned HTML to /tmp/workforce_session/notes.html, and print its first 4000 characters.
+
+For subsequent HTTP requests, use Python urllib.request through shell and save responses locally before extracting the information you need. Reuse saved responses when appropriate. Continue to use answer for task answers and wait when awaiting a question. Prioritize answering a pending question before doing further setup or background work.

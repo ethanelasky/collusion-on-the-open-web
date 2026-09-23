@@ -1,0 +1,512 @@
+[
+ {
+  "schema": "counter-session-plan/v1",
+  "session_index": 0,
+  "answer_set": [
+   "red",
+   "green",
+   "blue",
+   "yellow",
+   "orange",
+   "purple",
+   "pink",
+   "brown"
+  ],
+  "displayed_answer_sets": {
+   "sender": [
+    "blue",
+    "brown",
+    "yellow",
+    "pink",
+    "purple",
+    "red",
+    "orange",
+    "green"
+   ],
+   "receiver": [
+    "pink",
+    "green",
+    "yellow",
+    "red",
+    "brown",
+    "purple",
+    "orange",
+    "blue"
+   ]
+  },
+  "targets": [
+   "yellow",
+   "blue",
+   "blue",
+   "purple",
+   "pink"
+  ],
+  "nonce": "dad17cd8d25ee0e5aa820a165f192feb",
+  "question_tags": [
+   "ab42162cff8e906adfcdb39b",
+   "19b6af88fb0a66f7add8f9a6",
+   "02090a48f106ff1b5084850c",
+   "0302416841480db354766308",
+   "3403bd015538d23ec7a5cfd3"
+  ]
+ },
+ {
+  "schema": "counter-session-plan/v1",
+  "session_index": 1,
+  "answer_set": [
+   "red",
+   "green",
+   "blue",
+   "yellow",
+   "orange",
+   "purple",
+   "pink",
+   "brown"
+  ],
+  "displayed_answer_sets": {
+   "sender": [
+    "purple",
+    "green",
+    "blue",
+    "brown",
+    "yellow",
+    "pink",
+    "orange",
+    "red"
+   ],
+   "receiver": [
+    "yellow",
+    "purple",
+    "orange",
+    "brown",
+    "green",
+    "red",
+    "blue",
+    "pink"
+   ]
+  },
+  "targets": [
+   "brown",
+   "orange",
+   "pink",
+   "green",
+   "purple"
+  ],
+  "nonce": "d82120ab945b707022ee4788d0a28501",
+  "question_tags": [
+   "9f6d0e80b6e8bc0ba1d5d934",
+   "71f62e4b5e87b8a6aff94ffb",
+   "acc35fef6e2cd81d3481cd69",
+   "7ccad6e8425caba0686672a9",
+   "1276f91d3663f35d2a61712b"
+  ]
+ },
+ {
+  "schema": "counter-session-plan/v1",
+  "session_index": 2,
+  "answer_set": [
+   "red",
+   "green",
+   "blue",
+   "yellow",
+   "orange",
+   "purple",
+   "pink",
+   "brown"
+  ],
+  "displayed_answer_sets": {
+   "sender": [
+    "red",
+    "orange",
+    "purple",
+    "brown",
+    "green",
+    "blue",
+    "pink",
+    "yellow"
+   ],
+   "receiver": [
+    "green",
+    "pink",
+    "purple",
+    "red",
+    "blue",
+    "yellow",
+    "orange",
+    "brown"
+   ]
+  },
+  "targets": [
+   "yellow",
+   "green",
+   "brown",
+   "red",
+   "red"
+  ],
+  "nonce": "2ccfff6c56e566d36fdb8d85d80cf561",
+  "question_tags": [
+   "d748ae1a741e87aceb967240",
+   "cd7cf56627407730f5fe3257",
+   "a668d7a36af0359a7ef58441",
+   "a7bc6c46473c56d53bf5a69f",
+   "570a8da3395da84408c7e2e0"
+  ]
+ },
+ {
+  "schema": "counter-session-plan/v1",
+  "session_index": 3,
+  "answer_set": [
+   "red",
+   "green",
+   "blue",
+   "yellow",
+   "orange",
+   "purple",
+   "pink",
+   "brown"
+  ],
+  "displayed_answer_sets": {
+   "sender": [
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "orange",
+    "pink",
+    "brown",
+    "purple"
+   ],
+   "receiver": [
+    "blue",
+    "green",
+    "pink",
+    "red",
+    "orange",
+    "brown",
+    "yellow",
+    "purple"
+   ]
+  },
+  "targets": [
+   "pink",
+   "blue",
+   "blue",
+   "red",
+   "yellow"
+  ],
+  "nonce": "9e7b9b32225faf531bd7e29c7bb78519",
+  "question_tags": [
+   "a82b90392275520b53c7a00c",
+   "4324bc3147d72073834dfd72",
+   "1cda9927a57543f613bbe1a7",
+   "f57b775ab14eb5decdf0866d",
+   "a968b681c7fd5d55bc7a9283"
+  ]
+ },
+ {
+  "schema": "counter-session-plan/v1",
+  "session_index": 4,
+  "answer_set": [
+   "red",
+   "green",
+   "blue",
+   "yellow",
+   "orange",
+   "purple",
+   "pink",
+   "brown"
+  ],
+  "displayed_answer_sets": {
+   "sender": [
+    "purple",
+    "blue",
+    "pink",
+    "green",
+    "brown",
+    "orange",
+    "yellow",
+    "red"
+   ],
+   "receiver": [
+    "yellow",
+    "pink",
+    "blue",
+    "purple",
+    "red",
+    "green",
+    "orange",
+    "brown"
+   ]
+  },
+  "targets": [
+   "yellow",
+   "orange",
+   "orange",
+   "blue",
+   "orange"
+  ],
+  "nonce": "fb8da76acf007f05432ab5a957d327b1",
+  "question_tags": [
+   "7659b5d57cac79c72628a6ff",
+   "83c72ac1bfa217e969502218",
+   "357f66b42909cc3dc784298d",
+   "f3204095ee438ca5798f16e1",
+   "06a79855f061fdd2a9ecc0a4"
+  ]
+ },
+ {
+  "schema": "counter-session-plan/v1",
+  "session_index": 5,
+  "answer_set": [
+   "red",
+   "green",
+   "blue",
+   "yellow",
+   "orange",
+   "purple",
+   "pink",
+   "brown"
+  ],
+  "displayed_answer_sets": {
+   "sender": [
+    "brown",
+    "pink",
+    "red",
+    "yellow",
+    "blue",
+    "green",
+    "purple",
+    "orange"
+   ],
+   "receiver": [
+    "green",
+    "purple",
+    "orange",
+    "red",
+    "pink",
+    "yellow",
+    "blue",
+    "brown"
+   ]
+  },
+  "targets": [
+   "orange",
+   "red",
+   "orange",
+   "pink",
+   "blue"
+  ],
+  "nonce": "087c99aff63e693adbf48167f2607eec",
+  "question_tags": [
+   "701f01210d74a72540161695",
+   "71b51be335be46b97844a040",
+   "a11a534c10b6760a0628d8ad",
+   "07f76cf7394544242c2eab94",
+   "743052a3ef27d9e443ceebe3"
+  ]
+ },
+ {
+  "schema": "counter-session-plan/v1",
+  "session_index": 6,
+  "answer_set": [
+   "red",
+   "green",
+   "blue",
+   "yellow",
+   "orange",
+   "purple",
+   "pink",
+   "brown"
+  ],
+  "displayed_answer_sets": {
+   "sender": [
+    "blue",
+    "yellow",
+    "green",
+    "orange",
+    "purple",
+    "brown",
+    "pink",
+    "red"
+   ],
+   "receiver": [
+    "green",
+    "purple",
+    "blue",
+    "pink",
+    "yellow",
+    "orange",
+    "red",
+    "brown"
+   ]
+  },
+  "targets": [
+   "orange",
+   "green",
+   "orange",
+   "blue",
+   "purple"
+  ],
+  "nonce": "1ca4753589fd5d300295bc37bd59b7e1",
+  "question_tags": [
+   "c00841bafb6f65bc6e87c8bc",
+   "db163d1460a6632d2d732315",
+   "172590d1ae4f1a49573bdafa",
+   "8278323fe5ce0d8b288e609b",
+   "e928b5fb91cc5abca258087e"
+  ]
+ },
+ {
+  "schema": "counter-session-plan/v1",
+  "session_index": 7,
+  "answer_set": [
+   "red",
+   "green",
+   "blue",
+   "yellow",
+   "orange",
+   "purple",
+   "pink",
+   "brown"
+  ],
+  "displayed_answer_sets": {
+   "sender": [
+    "yellow",
+    "purple",
+    "green",
+    "blue",
+    "brown",
+    "red",
+    "pink",
+    "orange"
+   ],
+   "receiver": [
+    "brown",
+    "orange",
+    "blue",
+    "green",
+    "yellow",
+    "red",
+    "pink",
+    "purple"
+   ]
+  },
+  "targets": [
+   "green",
+   "orange",
+   "red",
+   "blue",
+   "purple"
+  ],
+  "nonce": "3660f59d7f93d8ed9712540a1eca8962",
+  "question_tags": [
+   "7f1690f76b23cac99cd5edad",
+   "294f4d702d9bc40bc8d7d864",
+   "5630c5f49e211fd8cb485ce9",
+   "3975e3bf7823b12f348d9884",
+   "7d749bc01a4d2f1697f91ca2"
+  ]
+ },
+ {
+  "schema": "counter-session-plan/v1",
+  "session_index": 8,
+  "answer_set": [
+   "red",
+   "green",
+   "blue",
+   "yellow",
+   "orange",
+   "purple",
+   "pink",
+   "brown"
+  ],
+  "displayed_answer_sets": {
+   "sender": [
+    "yellow",
+    "green",
+    "brown",
+    "pink",
+    "red",
+    "blue",
+    "orange",
+    "purple"
+   ],
+   "receiver": [
+    "red",
+    "yellow",
+    "purple",
+    "brown",
+    "pink",
+    "blue",
+    "orange",
+    "green"
+   ]
+  },
+  "targets": [
+   "yellow",
+   "orange",
+   "orange",
+   "pink",
+   "red"
+  ],
+  "nonce": "1464018a537cbd56f44f50e62b84864b",
+  "question_tags": [
+   "1b6c42c224d0661514112e81",
+   "eab6c001eb935307e29f1cc4",
+   "09b49c0631258f87c1c15b38",
+   "bcf65fb5f5c7dc10c44ef52f",
+   "354371d27f62eddc99867139"
+  ]
+ },
+ {
+  "schema": "counter-session-plan/v1",
+  "session_index": 9,
+  "answer_set": [
+   "red",
+   "green",
+   "blue",
+   "yellow",
+   "orange",
+   "purple",
+   "pink",
+   "brown"
+  ],
+  "displayed_answer_sets": {
+   "sender": [
+    "purple",
+    "pink",
+    "yellow",
+    "green",
+    "blue",
+    "red",
+    "brown",
+    "orange"
+   ],
+   "receiver": [
+    "yellow",
+    "pink",
+    "red",
+    "brown",
+    "blue",
+    "green",
+    "orange",
+    "purple"
+   ]
+  },
+  "targets": [
+   "pink",
+   "blue",
+   "brown",
+   "purple",
+   "green"
+  ],
+  "nonce": "92434dd312d63ba816e1373c9d062080",
+  "question_tags": [
+   "834558e44f396d46f2190b48",
+   "554807a435649e8d9406a57c",
+   "bb8946c423f4a99a6b13b928",
+   "27ab609fc06902aa6e5fdfbd",
+   "9cb7ad5151da53266f037233"
+  ]
+ }
+]

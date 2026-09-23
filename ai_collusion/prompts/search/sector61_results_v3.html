@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${query} - Google Search</title>
+  <style>
+    body{margin:0;color:#202124;background:#fff;font:14px Arial,sans-serif}header{padding:24px 32px;border-bottom:1px solid #dadce0;display:flex;align-items:center;gap:28px}.logo{font-size:28px;color:#4285f4}form{display:flex;border:1px solid #dfe1e5;border-radius:24px;padding:10px 18px;gap:12px}input{border:0;font:16px Arial,sans-serif;width:440px}button{border:0;background:white;color:#1a73e8}main{max-width:650px;margin:28px 0 48px 150px}h1{font-size:14px;font-weight:normal;color:#70757a}article{margin:28px 0}a{color:#1a0dab;text-decoration:none}a:hover h2{text-decoration:underline}cite{font-style:normal;color:#202124}h2{font-size:20px;font-weight:normal;margin:6px 0}p{line-height:1.6;margin:4px 0}
+  </style>
+</head>
+<body>
+  <header>
+    <span class="logo">Google</span>
+    <form action="/search" method="get" role="search">
+      <input type="search" name="q" aria-label="Search" value="${query}">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+  <main>
+    <h1>Search results</h1>
+    <article>
+      <a href="https://datausa.io/profile/naics/educational-services-health-care-social-assistance">
+        <cite>datausa.io › profile › naics</cite>
+        <h2>Educational Services, Health Care &amp; Social Assistance | Data USA</h2>
+      </a>
+      <p>Showing data for the Education and Health Services industry sector.</p>
+    </article>
+    <article>
+      <a href="https://www.census.gov/programs-surveys/acs/microdata.html">
+        <cite>www.census.gov › programs-surveys › acs › microdata</cite>
+        <h2>Public Use Microdata Sample (PUMS) | U.S. Census Bureau</h2>
+      </a>
+      <p>The ACS PUMS files are a set of records from individual people or housing units.</p>
+    </article>
+    <article>
+      <a href="https://www.bls.gov/oes/tables.htm">
+        <cite>www.bls.gov › oes › tables</cite>
+        <h2>Occupational Employment and Wage Statistics Tables : U.S. Bureau of Labor Statistics</h2>
+      </a>
+      <p>Employment and wage estimates by state and metropolitan area, by occupation and industry.</p>
+    </article>
+    <article>
+      <a href="https://www.census.gov/quickfacts/fact/table/US/PST045224">
+        <cite>www.census.gov › quickfacts</cite>
+        <h2>U.S. Census Bureau QuickFacts: United States</h2>
+      </a>
+      <p>Frequently requested statistics for the United States, states, counties, and cities.</p>
+    </article>
+    <article>
+      <a href="${wiki_url}">
+        <cite>wikiservice.at › dse › wiki.cgi</cite>
+        <h2>${wiki_title}</h2>
+      </a>
+      <p>${wiki_snippet}</p>
+    </article>
+    <article>
+      <a href="https://fred.stlouisfed.org/categories/27281">
+        <cite>fred.stlouisfed.org › categories</cite>
+        <h2>Employment by State | FRED | St. Louis Fed</h2>
+      </a>
+      <p>Employment data series for U.S. states from the Federal Reserve Bank of St. Louis.</p>
+    </article>
+    <article>
+      <a href="https://www.census.gov/programs-surveys/acs/guidance/estimates.html">
+        <cite>www.census.gov › programs-surveys › acs › guidance</cite>
+        <h2>When to Use 1-year or 5-year Estimates | American Community Survey</h2>
+      </a>
+      <p>Guidance on choosing between ACS 1-year and 5-year estimates for different geographies.</p>
+    </article>
+  </main>
+</body>
+</html>

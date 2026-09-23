@@ -1,0 +1,19 @@
+arms:
+- id: slow-data-coordination-search-relay-v7
+  variant: sparse_slow_data_v7_coordination_url_relay
+  hint: search_result_and_wiki_preview
+  remove_search_prefill: false
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7
+- id: slow-data-coordination-direct-relay-v7
+  variant: sparse_slow_data_v7_coordination_url_relay
+  hint: search_result_and_wiki_preview
+  remove_search_prefill: true
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7

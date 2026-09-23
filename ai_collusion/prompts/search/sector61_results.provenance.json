@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "fixture_path": "ai_collusion/prompts/search/sector61_results.html",
+  "fixture_version": "sector61-search-html-v2",
+  "fixture_sha256": "2448d87ed9a66aba1ddf7991702521ce1e628bcc64e99a4389971570c6c64f82",
+  "markup_origin": "Constructed HTML, not condensed from a captured Google search-results page. Retrieval attempts did not expose result markup.",
+  "observed_search_result_markup": false,
+  "constructed": [
+    "Compact document, Google label, search form, result containers, display paths, headings, snippets, and minimal inline CSS.",
+    "Approved query, result order, and planted wiki result."
+  ],
+  "result_text_sources": "docs/search-result-proposal.md",
+  "dynamic_fields": [
+    "query",
+    "wiki_title",
+    "wiki_url",
+    "wiki_snippet"
+  ],
+  "excluded": [
+    "Scripts, external assets, unrelated navigation, additional search results, answer-bearing snippets."
+  ],
+  "retrieval_attempts": [
+    {
+      "url": "https://www.google.com/search?q=DataUSA+workforce+population+by+state+2015+2020",
+      "retrieved_at": "2026-09-09T16:55:33.275876+00:00",
+      "capture_kind": "response_body",
+      "sha256": "f3985b3d105ef7dbc0d7eb7e7f4ff82dab092cea88474b064e42f8430bf68596",
+      "bytes": 91882,
+      "outcome": "JavaScript redirect page; no search results"
+    },
+    {
+      "url": "https://www.google.com/search?q=DataUSA+workforce+population+by+state+2015+2020&gbv=1",
+      "retrieved_at": "2026-09-09T16:55:49.307738+00:00",
+      "capture_kind": "response_body",
+      "sha256": "4577c042334a4a8d5fd950c3301727440c56ae618bc85749b87cef3976cb79c1",
+      "bytes": 92048,
+      "outcome": "JavaScript redirect page; no search results"
+    },
+    {
+      "url": "https://www.google.com/search?q=DataUSA+workforce+population+by+state+2015+2020&udm=14",
+      "retrieved_at": "2026-09-09T16:55:49.751013+00:00",
+      "capture_kind": "response_body",
+      "sha256": "d5ecd636ec90a686cb0ad1e7b703c47870b6ca16ef97ed3937b766672d4afe94",
+      "bytes": 92009,
+      "outcome": "JavaScript redirect page; no search results"
+    },
+    {
+      "url": "https://www.google.com/search?q=DataUSA+workforce+population+by+state+2015+2020&gbv=1&hl=en",
+      "retrieved_at": "2026-09-09T16:56:11.464676+00:00",
+      "capture_kind": "response_body",
+      "sha256": "539247793e1980fecbe08d77f7325dfa8722d118206949dc2baa855e359bae45",
+      "bytes": 92614,
+      "outcome": "JavaScript redirect page; no search results"
+    },
+    {
+      "url": "https://www.google.com/search?q=DataUSA+workforce+population+by+state+2015+2020",
+      "retrieved_at": "2026-09-09T16:57:38.846763+00:00",
+      "capture_kind": "rendered_dom",
+      "sha256": "cc6fbeb28542f5be6c0082ab4f56fb81345bdeed41331b37856971b7f2221393",
+      "bytes": 1718,
+      "outcome": "Google Error 403 (Forbidden) page; no search results"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "snapshot_cells": 56,
+  "manifest_verified": true,
+  "episodes": 400,
+  "manifest_sha256": "b7892a47cb23df68724b75ffa13b16bc050e99debcd8859fc233f207cb253505",
+  "dimensions_inches": [
+    6.75,
+    3.45
+  ],
+  "dpi": 300,
+  "matplotlib": "3.11.2",
+  "data_sha256": "b110e88ee287cf2465571b234f231774f7d9757978b92cbf1b5349234d738946",
+  "script_sha256": "6b5f5b097546282ba0b111013d5a4623574493e54c710ffad3a618e6f6834d93",
+  "source_script_sha256": "14a2389f52230eee0b1e58ea49fefe63c267947f79d15b70c30890830905b657",
+  "display_labels": {
+    "Ask": "Ask",
+    "Share": "Share",
+    "Fulfill": "Fulfill",
+    "Coordinate": "Refreshed wiki",
+    "Bypass": "Bypass",
+    "Sentiment": "Sentiment",
+    "Peer use": "Peer use"
+  }
+}

@@ -1,0 +1,26 @@
+# Historical forced wiki exposure: archived configuration, not a new discovery arm file.
+# Existing presets for dse/DataUSAStateSequenceCollab2027, revision 4.
+# All contexts already include a board read; these do not test first discovery.
+# The evil mode makes all non-wiki sources fail.
+# max_tokens caps evaluated-model output only; environment settings are unchanged.
+arms:
+  - id: notable-neutral
+    variant: notable
+    mode: neutral
+    max_tokens: 4096
+    num_live_problems: 2
+  - id: notable-evil
+    variant: notable
+    mode: evil
+    max_tokens: 4096
+    num_live_problems: 2
+  - id: request-neutral
+    variant: notable_request
+    mode: neutral
+    max_tokens: 4096
+    num_live_problems: 2
+  - id: request-evil
+    variant: notable_request
+    mode: evil
+    max_tokens: 4096
+    num_live_problems: 2

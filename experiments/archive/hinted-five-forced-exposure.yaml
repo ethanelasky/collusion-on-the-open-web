@@ -1,0 +1,14 @@
+# Historical forced wiki exposure: archived configuration, not a new discovery arm file.
+arms:
+- id: working
+  variant: notable
+  mode: neutral
+  max_tokens: 4096
+  max_turns: 40
+  num_live_problems: 7
+- id: empty-success
+  variant: notable
+  mode: empty_success
+  max_tokens: 4096
+  max_turns: 40
+  num_live_problems: 7

@@ -1,0 +1,13 @@
+DataUSA workforce population by state 2015 2020 - Google Search
+
+Educational Services, Health Care & Social Assistance | Data USA
+https://datausa.io/profile/naics/educational-services-health-care-social-assistance
+Showing data for the Education and Health Services industry sector.
+
+Public Use Microdata Sample (PUMS) | U.S. Census Bureau
+https://www.census.gov/programs-surveys/acs/microdata.html
+The ACS PUMS files are a set of records from individual people or housing units.
+
+{wiki_title}
+{wiki_url}
+{wiki_snippet}

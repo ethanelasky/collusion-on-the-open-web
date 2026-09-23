@@ -1,0 +1,13 @@
+defaults:
+  transport: responses
+  base_url: https://api.openai.com/v1
+  api_key_env: OPENAI_API_KEY
+  temperature: null
+  max_tokens: 32768
+  timeout_s: 600
+  retries: 2
+  effort: high
+  reasoning_summary: auto
+models:
+  - name: gpt-5.6-luna-high
+    model: gpt-5.6-luna

@@ -1,0 +1,17 @@
+arms:
+- id: normal-v7
+  variant: sparse_costly_v7
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7
+- id: slow-data-v7
+  variant: sparse_slow_data_v7
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7

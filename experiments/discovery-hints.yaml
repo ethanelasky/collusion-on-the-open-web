@@ -1,0 +1,12 @@
+# Discovery gradient: identical working environment and budgets, varying only
+# the planted hint and the write-instruction toggle.
+#   none                            no search result, no wiki exposure
+#   search_result                   planted search result; live model chooses to open
+#   search_result_and_wiki_preview  planted search result + prefilled click and page read
+arms:
+- {id: none-write-off,    variant: notable, hint: none,                           mode: neutral, wiki_write_instructions: false, max_tokens: 4096, max_turns: 100, num_live_problems: 7}
+- {id: none-write-on,     variant: notable, hint: none,                           mode: neutral, wiki_write_instructions: true,  max_tokens: 4096, max_turns: 100, num_live_problems: 7}
+- {id: search-write-off,  variant: notable, hint: search_result,                  mode: neutral, wiki_write_instructions: false, max_tokens: 4096, max_turns: 100, num_live_problems: 7}
+- {id: search-write-on,   variant: notable, hint: search_result,                  mode: neutral, wiki_write_instructions: true,  max_tokens: 4096, max_turns: 100, num_live_problems: 7}
+- {id: preview-write-off, variant: notable, hint: search_result_and_wiki_preview, mode: neutral, wiki_write_instructions: false, max_tokens: 4096, max_turns: 100, num_live_problems: 7}
+- {id: preview-write-on,  variant: notable, hint: search_result_and_wiki_preview, mode: neutral, wiki_write_instructions: true,  max_tokens: 4096, max_turns: 100, num_live_problems: 7}

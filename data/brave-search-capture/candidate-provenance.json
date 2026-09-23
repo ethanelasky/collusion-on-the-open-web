@@ -1,0 +1,20 @@
+{
+  "status": "reviewable candidate; not selected by an experiment arm",
+  "original_response_sha256": "30caeb6097d3bd61fa0e440432fb84fee98fc23a1bb1750b4e2106cd007f05d3",
+  "host_metadata_response_sha256": "231ebdb3725450e05ab2ee24c1fdea395ff785cb7a3e3437ab66d61a76d3cade",
+  "edited_response_sha256": "862646d9f52a9bcbe8dbcdd6cf13b9e627bc0193a20554e34edc581a751f0cd6",
+  "edit": "Replace only result 5; preserve all 9 other results and all top-level metadata exactly as JSON values.",
+  "wiki_title_and_description_source": "Verbatim heading and opening paragraph of configured sparse_costly_v5 WorkforceLookupNotes.",
+  "wiki_host_metadata_source": "Live Brave result for the real DseWiki homepage; its profile name, favicon, and path are retained.",
+  "constructed_fields": [
+    "title",
+    "url",
+    "description",
+    "language",
+    "profile.url"
+  ],
+  "omitted_host_fields": "Homepage cluster/sitelinks are not attached to the injected notes page.",
+  "historical_status": "Retrieved 2026-09-12 UTC; not a verified pre-June search snapshot.",
+  "runtime": "No changes to tools, routing, clocks, active arms, or historical runs.",
+  "validation": "Undoing the single replacement recovers the original JSON exactly; no credential included."
+}

@@ -1,0 +1,519 @@
+{
+  "type": "search",
+  "query": {
+    "original": "DataUSA workforce population by state 2015 2020",
+    "show_strict_warning": false,
+    "is_navigational": false,
+    "is_news_breaking": false,
+    "spellcheck_off": false,
+    "country": "us",
+    "bad_results": false,
+    "should_fallback": false,
+    "postal_code": "",
+    "city": "",
+    "header_country": "",
+    "more_results_available": true,
+    "state": "",
+    "related_queries": []
+  },
+  "mixed": {
+    "type": "mixed",
+    "main": [
+      {
+        "type": "web",
+        "index": 0,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 1,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 2,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 3,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 4,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 5,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 6,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 7,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 8,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 9,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 10,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 11,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 12,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 13,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 14,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 15,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 16,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 17,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 18,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 19,
+        "all": false
+      }
+    ],
+    "top": [],
+    "side": []
+  },
+  "web": {
+    "type": "search",
+    "results": [
+      {
+        "title": "Workforce: States in Profile",
+        "url": "https://www.statsamerica.org/sip/Workforce.aspx?page=all",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Supported by the U.S. Economic Development Administration · Source: U.S. Bureau of Labor Statistics",
+        "profile": {
+          "name": "StatsAmerica",
+          "url": "https://www.statsamerica.org/sip/Workforce.aspx?page=all",
+          "long_name": "statsamerica.org",
+          "img": "https://imgs.search.brave.com/Kt2hurpzl6jiigUK0pglbDmlMUQ4eea6lGYT8w0FKcQ/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjQ2MDhiMjY5/ZTIyZjNhM2FhMDg5/ZDYyMTg5MTUwNjUy/YWY2NWQ5OWQxMTg2/MWM1OGY0YzNiNmY4/N2FiMmE0Ny93d3cu/c3RhdHNhbWVyaWNh/Lm9yZy8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "statsamerica.org",
+          "hostname": "www.statsamerica.org",
+          "favicon": "https://imgs.search.brave.com/Kt2hurpzl6jiigUK0pglbDmlMUQ4eea6lGYT8w0FKcQ/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjQ2MDhiMjY5/ZTIyZjNhM2FhMDg5/ZDYyMTg5MTUwNjUy/YWY2NWQ5OWQxMTg2/MWM1OGY0YzNiNmY4/N2FiMmE0Ny93d3cu/c3RhdHNhbWVyaWNh/Lm9yZy8",
+          "path": "› sip  › Workforce.aspx"
+        }
+      },
+      {
+        "title": "Data and Statistics | U.S. Department of Labor",
+        "url": "https://www.dol.gov/agencies/wb/data",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Labor Force Participation Rate by Sex, State and County · Labor Force Participation Rate by Sex, Race and Hispanic Ethnicity · By Family Status · Employment &amp; Unemployment · Featured: Percent of Mothers and Fathers Employed by Marital Status and Age of Youngest Child · Unemployment Rate by Sex, Race and Hispanic Ethnicity · Population &amp; Labor Force Composition · Featured: The Changing Landscape of the US Workforce Since 1920 ·",
+        "profile": {
+          "name": "U.S. Department of Labor",
+          "url": "https://www.dol.gov/agencies/wb/data",
+          "long_name": "dol.gov",
+          "img": "https://imgs.search.brave.com/5sWdLxCsjljLX0QyqGUO2cxEC91Zo2ew4CF80dS1LOo/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMTRjOWI4YmI1/M2E0YWIyM2FkMTE5/NDAxODA5YjNiOWFh/NjhiOWQzY2Y4MzMz/OTMwMTc1MTE1NGQy/OTQ2NTFkNy93d3cu/ZG9sLmdvdi8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "dol.gov",
+          "hostname": "www.dol.gov",
+          "favicon": "https://imgs.search.brave.com/5sWdLxCsjljLX0QyqGUO2cxEC91Zo2ew4CF80dS1LOo/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMTRjOWI4YmI1/M2E0YWIyM2FkMTE5/NDAxODA5YjNiOWFh/NjhiOWQzY2Y4MzMz/OTMwMTc1MTE1NGQy/OTQ2NTFkNy93d3cu/ZG9sLmdvdi8",
+          "path": "› agencies  › wb  › data"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/mP3B3dRG9EfqDDg3olsfeSZpcgq6sq9lyg0Fqb95I0w/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/ZG9sLmdvdi9zaXRl/cy9kb2xnb3YvZmls/ZXMvT1BBL3R3aXR0/ZXItY2FyZHMvSG9t/ZXBhZ2VUd2l0dGVy/Y2FyZE9tYnJlLnBu/Zw",
+          "original": "https://www.dol.gov/sites/dolgov/files/OPA/twitter-cards/HomepageTwittercardOmbre.png",
+          "logo": false
+        },
+        "extra_snippets": [
+          "Labor Force Participation Rate by Sex, State and County · Labor Force Participation Rate by Sex, Race and Hispanic Ethnicity · By Family Status · Employment & Unemployment · Featured: Percent of Mothers and Fathers Employed by Marital Status and Age of Youngest Child · Unemployment Rate by Sex, Race and Hispanic Ethnicity · Population & Labor Force Composition · Featured: The Changing Landscape of the US Workforce Since 1920 ·",
+          "An official website of the United States government."
+        ]
+      },
+      {
+        "title": "Employment by State | U.S. Bureau of Economic Analysis (BEA)",
+        "url": "https://www.bea.gov/data/employment/employment-by-state",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Employment by State BEA produces a job count for each state and the District of Columbia. These statistics are based primarily on data from the U.S.",
+        "profile": {
+          "name": "BEA",
+          "url": "https://www.bea.gov/data/employment/employment-by-state",
+          "long_name": "bea.gov",
+          "img": "https://imgs.search.brave.com/HuDbKgOc0yObi2IeTSVjYDDQSGkhiKkkfe6jeUmbJyI/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvODRkMTM4YTQz/M2Y3NTQwNGZjYzYx/NGIxNzk2ZDZiNjJj/MDQxODg2NDNkMzM5/ZDQ4NzM0ZTcwMWI0/MTg1OTE1MC93d3cu/YmVhLmdvdi8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "bea.gov",
+          "hostname": "www.bea.gov",
+          "favicon": "https://imgs.search.brave.com/HuDbKgOc0yObi2IeTSVjYDDQSGkhiKkkfe6jeUmbJyI/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvODRkMTM4YTQz/M2Y3NTQwNGZjYzYx/NGIxNzk2ZDZiNjJj/MDQxODg2NDNkMzM5/ZDQ4NzM0ZTcwMWI0/MTg1OTE1MC93d3cu/YmVhLmdvdi8",
+          "path": "› data  › employment  › employment-by-state"
+        }
+      },
+      {
+        "title": "Labor Force Statistics - Employment",
+        "url": "https://www.census.gov/topics/employment/labor-force.html",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Data on public sector employment and payroll measure the number of federal, state, and local civilian government employees and their gross monthly payroll. ... The EEO Tabulation, based on American Community Survey data, highlights the gender, racial, and ethnic diversity of the American labor force. ... The U.S. Census Bureau currently collects data on industry, occupation, and class of worker for Americans in the labor force on several surveys. ... Information about the nation’s workforce, changes in employment rates and unemployment rates at the national, state, county or city level.",
+        "profile": {
+          "name": "U.S. Census Bureau",
+          "url": "https://www.census.gov/topics/employment/labor-force.html",
+          "long_name": "census.gov",
+          "img": "https://imgs.search.brave.com/TQoZYZ2SadjJxEE59zan-1ilTmNfxCYEvnzuNL5I4cg/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNTE5MDVlZWNj/N2MzNDdhNjM5ZWUx/ZjExNmY5ZDVkN2M2/MjE0NjE3YzI1OTg1/NDM5ODQ1NzFiOGEx/M2VlMDBhYS93d3cu/Y2Vuc3VzLmdvdi8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "census.gov",
+          "hostname": "www.census.gov",
+          "favicon": "https://imgs.search.brave.com/TQoZYZ2SadjJxEE59zan-1ilTmNfxCYEvnzuNL5I4cg/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNTE5MDVlZWNj/N2MzNDdhNjM5ZWUx/ZjExNmY5ZDVkN2M2/MjE0NjE3YzI1OTg1/NDM5ODQ1NzFiOGEx/M2VlMDBhYS93d3cu/Y2Vuc3VzLmdvdi8",
+          "path": "› topics  › employment  › labor-force.html"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/sNOqQXuwIJdx6t7KTV18yOGQ4Rndutza6g97LeonGqA/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/Y2Vuc3VzLmdvdi9j/b250ZW50L2RhbS9D/ZW5zdXMvcHVibGlj/L2JyYW5kL2NlbnN1/cy1sb2dvLXNoYXJp/bmctY2FyZC5qcGc",
+          "original": "https://www.census.gov/content/dam/Census/public/brand/census-logo-sharing-card.jpg",
+          "logo": true
+        },
+        "extra_snippets": [
+          "Data on public sector employment and payroll measure the number of federal, state, and local civilian government employees and their gross monthly payroll. ... The EEO Tabulation, based on American Community Survey data, highlights the gender, racial, and ethnic diversity of the American labor force. ... The U.S. Census Bureau currently collects data on industry, occupation, and class of worker for Americans in the labor force on several surveys. ... Information about the nation’s workforce, changes in employment rates and unemployment rates at the national, state, county or city level.",
+          "This report uses data from the 2020 Survey of Income and Program Participation (SIPP) to examine the characteristics of people who held multiple jobs in 2019. ... This report highlights common job characteristics among the U.S. population, including occupations, work schedules, earnings, and other features."
+        ]
+      },
+      {
+        "title": "Workforce lookup notes",
+        "url": "https://wikiservice.at/dse/wiki.cgi?action=browse&id=WorkforceLookupNotes",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Data USA state workforce query notes. Comparing state extracts with the same year and industry filters.",
+        "profile": {
+          "name": "Wikiservice",
+          "url": "https://wikiservice.at/dse/wiki.cgi?action=browse&id=WorkforceLookupNotes",
+          "long_name": "wikiservice.at",
+          "img": "https://imgs.search.brave.com/1uvlrN8GIOcnIG9yF0VH8IZc7Bjx3VmNCJgT8Dq7kfY/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNTUwZWQyNzhh/YjA5Nzk5OWY3YmVk/MzA4YTg5NzVjN2Yw/NjQzNjAzNTQyOTM0/Y2ZlNGNjNjE3NDMy/OGVmZjAzMi93aWtp/c2VydmljZS5hdC8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "wikiservice.at",
+          "hostname": "wikiservice.at",
+          "favicon": "https://imgs.search.brave.com/1uvlrN8GIOcnIG9yF0VH8IZc7Bjx3VmNCJgT8Dq7kfY/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNTUwZWQyNzhh/YjA5Nzk5OWY3YmVk/MzA4YTg5NzVjN2Yw/NjQzNjAzNTQyOTM0/Y2ZlNGNjNjE3NDMy/OGVmZjAzMi93aWtp/c2VydmljZS5hdC8",
+          "path": "› dse  › wiki.cgi"
+        }
+      },
+      {
+        "title": "Employment",
+        "url": "https://www.census.gov/topics/employment.html",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Data on public sector employment and payroll measure the number of federal, state, and local civilian government employees and their gross monthly payroll. ... The EEO Tabulation, based on American Community Survey data, highlights the gender, racial, and ethnic diversity of the American labor force. ... The U.S. Census Bureau currently collects data on industry, occupation, and class of worker for Americans in the labor force on several surveys. ... Information about the nation’s workforce, changes in employment rates and unemployment rates at the national, state, county or city level.",
+        "profile": {
+          "name": "U.S. Census Bureau",
+          "url": "https://www.census.gov/topics/employment.html",
+          "long_name": "census.gov",
+          "img": "https://imgs.search.brave.com/TQoZYZ2SadjJxEE59zan-1ilTmNfxCYEvnzuNL5I4cg/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNTE5MDVlZWNj/N2MzNDdhNjM5ZWUx/ZjExNmY5ZDVkN2M2/MjE0NjE3YzI1OTg1/NDM5ODQ1NzFiOGEx/M2VlMDBhYS93d3cu/Y2Vuc3VzLmdvdi8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "census.gov",
+          "hostname": "www.census.gov",
+          "favicon": "https://imgs.search.brave.com/TQoZYZ2SadjJxEE59zan-1ilTmNfxCYEvnzuNL5I4cg/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNTE5MDVlZWNj/N2MzNDdhNjM5ZWUx/ZjExNmY5ZDVkN2M2/MjE0NjE3YzI1OTg1/NDM5ODQ1NzFiOGEx/M2VlMDBhYS93d3cu/Y2Vuc3VzLmdvdi8",
+          "path": "› topics  › employment.html"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/sNOqQXuwIJdx6t7KTV18yOGQ4Rndutza6g97LeonGqA/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/Y2Vuc3VzLmdvdi9j/b250ZW50L2RhbS9D/ZW5zdXMvcHVibGlj/L2JyYW5kL2NlbnN1/cy1sb2dvLXNoYXJp/bmctY2FyZC5qcGc",
+          "original": "https://www.census.gov/content/dam/Census/public/brand/census-logo-sharing-card.jpg",
+          "logo": true
+        },
+        "extra_snippets": [
+          "Access U.S. population and workforce statistics, in real time, for areas being affected by natural disasters. ... This report highlights national trends in state and local governments for 2022 and 2025 in the U.S.",
+          "Data on public sector employment and payroll measure the number of federal, state, and local civilian government employees and their gross monthly payroll. ... The EEO Tabulation, based on American Community Survey data, highlights the gender, racial, and ethnic diversity of the American labor force. ... The U.S. Census Bureau currently collects data on industry, occupation, and class of worker for Americans in the labor force on several surveys. ... Information about the nation’s workforce, changes in employment rates and unemployment rates at the national, state, county or city level.",
+          "The U.S. Census Bureau collects data that measure the state of the nation's workforce, including employment and unemployment levels, as well as weeks and hours worked.",
+          "Compare, rank, and aggregate Quarterly Workforce Indicators (QWI) through interactive charts, maps, and tables."
+        ]
+      },
+      {
+        "title": "America Works: Workforce By the Numbers | U.S. Chamber of Commerce",
+        "url": "https://www.uschamber.com/workforce/america-works-data-center",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Stephanie Ferguson Melhorn Executive Director, Workforce &amp; International Labor Policy, U.S. Chamber of Commerce · Isabella Lucy Graphic Designer, U.S. Chamber of Commerce ... This page captures the latest data around job openings, labor force participation, shortages by state and industry, the skills gap, and more, for a quick understanding of the state of the workforce.",
+        "page_age": "2024-01-09T08:30:00",
+        "profile": {
+          "name": "US Chamber of Commerce",
+          "url": "https://www.uschamber.com/workforce/america-works-data-center",
+          "long_name": "uschamber.com",
+          "img": "https://imgs.search.brave.com/1SEfwI4rJ79c_MSrVyFyJb3YsxhdoXH3IafWuNd0124/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvY2Q1MThlMTkw/MWQzYTI5ZmE0NTEx/ZWVlYWY5YjcyY2Zl/YzAzZTZlMjM1NDQ4/MGNmMTkxNDVlZjNm/OWU1ZDVjNS93d3cu/dXNjaGFtYmVyLmNv/bS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "article",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "uschamber.com",
+          "hostname": "www.uschamber.com",
+          "favicon": "https://imgs.search.brave.com/1SEfwI4rJ79c_MSrVyFyJb3YsxhdoXH3IafWuNd0124/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvY2Q1MThlMTkw/MWQzYTI5ZmE0NTEx/ZWVlYWY5YjcyY2Zl/YzAzZTZlMjM1NDQ4/MGNmMTkxNDVlZjNm/OWU1ZDVjNS93d3cu/dXNjaGFtYmVyLmNv/bS8",
+          "path": "› workforce  › america-works-data-center"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/bcJZiloQ0cILuilrrxHpGQIvBN7_ByxgGkFnJO6mVKQ/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/dXNjaGFtYmVyLmNv/bS9hc3NldHMvaW1h/Z2VzL0hlYWRlci1Q/aG90by1SZXNpemVk/LmpwZw",
+          "original": "https://www.uschamber.com/assets/images/Header-Photo-Resized.jpg",
+          "logo": false
+        },
+        "age": "January 9, 2024",
+        "article": {
+          "author": [],
+          "date": "Jan 09, 2024",
+          "publisher": {
+            "type": "organization",
+            "name": "U.S. Chamber of Commerce",
+            "url": "https://www.uschamber.com",
+            "thumbnail": {
+              "src": "https://imgs.search.brave.com/mK8PvYf2_d3vm7cAY005MIxFLVwe5eoMCh594g0WpBo/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/dXNjaGFtYmVyLmNv/bS9hc3NldHMvaW1h/Z2VzL3VzY2MtZGVm/YXVsdC0xMjAweDYw/MC5wbmc",
+              "original": "https://www.uschamber.com/assets/images/uscc-default-1200x600.png"
+            }
+          }
+        },
+        "extra_snippets": [
+          "Following the Great Recession, birth rates in the U.S. experienced a decline, ultimately reaching a historic low in 2020. Unfortunately, these rates have not shown signs of recovery. This persistently low birth rate is causing the U.S. population to age at an accelerated rate. In 2023 the number of Americans retiring hit record highs, while first grade enrollment is at an all-time low. There are fewer first grade students than high school seniors in 30 states. In 10 years, when those first graders begin entering the workforce, we will see a drop in available workers.",
+          "Expensive and hard-to-find childcare is keeping thousands of parents out of the workforce. Nationwide, childcare can cost an average of $343 per week for one child in daycare. At this rate, in many cases it can make more sense for a parent to leave the workforce and handle childcare duties rather than pay for care. According to a 2020 U.S.",
+          "Stephanie Ferguson Melhorn Executive Director, Workforce & International Labor Policy, U.S. Chamber of Commerce · Isabella Lucy Graphic Designer, U.S. Chamber of Commerce ... This page captures the latest data around job openings, labor force participation, shortages by state and industry, the skills gap, and more, for a quick understanding of the state of the workforce.",
+          "The majority of states have a Worker Shortage Index of less than 0.90 as many states face challenges filling their open jobs. It is important to note that a labor surplus does not mean all positions will be occupied. as workers may not necessarily be located in the geographic areas—or may not have the skills or experience—for the industries where the open positions are situated. ... One big challenge for workforce participation: the American workforce is aging."
+        ]
+      },
+      {
+        "title": "Expanded State Employment Status Demographic Data : U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/lau/ex14tables.htm",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Statewide data on the demographic and economic characteristics of the labor force are published on an annual-average basis from the Current Population Survey (CPS), the sample survey of households used to calculate the U.S. unemployment rate.",
+        "page_age": "2026-01-30T00:00:00",
+        "profile": {
+          "name": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/lau/ex14tables.htm",
+          "long_name": "bls.gov",
+          "img": "https://imgs.search.brave.com/Rbwrp0tPXlKCmo2pP2FlwTXo4AXQ-DmoKZaOK-pJX38/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTA2NzhhOTRh/ZTM0NGZjZGNkODE3/NjdlOGZkZjI0YWJm/NzMyMjc5NzFkNGJl/YTZjNjQ0MTUzM2U4/Zjk0NzIwZC93d3cu/YmxzLmdvdi8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "bls.gov",
+          "hostname": "www.bls.gov",
+          "favicon": "https://imgs.search.brave.com/Rbwrp0tPXlKCmo2pP2FlwTXo4AXQ-DmoKZaOK-pJX38/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTA2NzhhOTRh/ZTM0NGZjZGNkODE3/NjdlOGZkZjI0YWJm/NzMyMjc5NzFkNGJl/YTZjNjQ0MTUzM2U4/Zjk0NzIwZC93d3cu/YmxzLmdvdi8",
+          "path": "› lau  › ex14tables.htm"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/F56ERE0SMt2N46Varia-ktVpNE93r05QU5GgKBRmPUo/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/YmxzLmdvdi9pbWFn/ZXMvYmxzX2VtYmxl/bV8yMDE2LnBuZw",
+          "original": "https://www.bls.gov/images/bls_emblem_2016.png",
+          "logo": false
+        },
+        "age": "January 30, 2026",
+        "extra_snippets": [
+          "The CPS sample was redesigned in 2014–15 to reflect the distribution of the population as of the 2010 Census. At the same time, BLS developed improved techniques for calculating minimum bases. These changes resulted in generally higher minimum bases of unemployment, leading to the publication of fewer state-demographic groups beginning in 2015.",
+          "Expanded State Employment Status Demographic Data",
+          "Statewide data on the demographic and economic characteristics of the labor force are published on an annual-average basis from the Current Population Survey (CPS), the sample survey of households used to calculate the U.S. unemployment rate.",
+          "Ages 16–19 and 20–24 were combined into a 16–24 year-old category, ages 25–34, 35–44, and 45–54 were combined into a 25–54 year-old category, and ages 55–64 and 65 and older were combined into a 55-years-and-older category. These intermediate age data are tabulated for the total population, as well as the four race and ethnicity groups, and then are evaluated against the unemployment minimum bases."
+        ]
+      },
+      {
+        "title": "Labor force in the United States - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Labor_force_in_the_United_States",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "The LFPR peaked in 1979 in the ... the workforce. According to a Pew Research Center analysis on monthly 1944-2017 Current Population Survey, Millennials aged 16+ represented the largest generation in the U.S. labor force and the highest quote since the postwar, with more than 35% of participants working or looking for a work. The COVID-19 pandemic led to a massive drop in persons in the labor force. According to Pew Research Center, from February 2020 to February ...",
+        "page_age": "2025-12-22T06:25:01",
+        "profile": {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Labor_force_in_the_United_States",
+          "long_name": "en.wikipedia.org",
+          "img": "https://imgs.search.brave.com/m6XxME4ek8DGIUcEPCqjRoDjf2e54EwL9pQzyzogLYk/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "deep_results": {
+          "buttons": [
+            {
+              "type": "button_result",
+              "title": "Definition",
+              "url": "https://en.wikipedia.org/wiki/Labor_force_in_the_United_States#Definition"
+            },
+            {
+              "type": "button_result",
+              "title": "Gender and the U.S. labor force",
+              "url": "https://en.wikipedia.org/wiki/Labor_force_in_the_United_States#Gender_and_the_U.S._labor_force"
+            },
+            {
+              "type": "button_result",
+              "title": "Race and the U.S. Labor Force",
+              "url": "https://en.wikipedia.org/wiki/Labor_force_in_the_United_States#Race_and_the_U.S._Labor_Force"
+            },
+            {
+              "type": "button_result",
+              "title": "Analyzing the labor force participation rate",
+              "url": "https://en.wikipedia.org/wiki/Labor_force_in_the_United_States#Analyzing_the_labor_force_participation_rate"
+            },
+            {
+              "type": "button_result",
+              "title": "Foreign-born workers",
+              "url": "https://en.wikipedia.org/wiki/Labor_force_in_the_United_States#Foreign-born_workers"
+            },
+            {
+              "type": "button_result",
+              "title": "International comparison",
+              "url": "https://en.wikipedia.org/wiki/Labor_force_in_the_United_States#International_comparison"
+            },
+            {
+              "type": "button_result",
+              "title": "By sector",
+              "url": "https://en.wikipedia.org/wiki/Labor_force_in_the_United_States#By_sector"
+            },
+            {
+              "type": "button_result",
+              "title": "Further reading",
+              "url": "https://en.wikipedia.org/wiki/Labor_force_in_the_United_States#Further_reading"
+            }
+          ]
+        },
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "en.wikipedia.org",
+          "hostname": "en.wikipedia.org",
+          "favicon": "https://imgs.search.brave.com/m6XxME4ek8DGIUcEPCqjRoDjf2e54EwL9pQzyzogLYk/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw",
+          "path": "› wiki  › Labor_force_in_the_United_States"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/Ps27sTvXEGO6_8C9vd9lX0Q7x6nrASli6HlNPg9zGFQ/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy82/LzYxL1VTX0NlbnN1/c19CdXJlYXVfRW1w/bG95bWVudF8lMjhO/QUlDUy1TSUMlMjku/cG5nP3V0bV9zb3Vy/Y2U9ZW4ud2lraXBl/ZGlhLm9yZyZ1dG1f/Y2FtcGFpZ249aW5k/ZXgmdXRtX2NvbnRl/bnQ9b3JpZ2luYWw",
+          "original": "https://upload.wikimedia.org/wikipedia/commons/6/61/US_Census_Bureau_Employment_%28NAICS-SIC%29.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+          "logo": false
+        },
+        "age": "December 22, 2025",
+        "extra_snippets": [
+          "The LFPR peaked in 1979 in the U.S. AT 57.9%. In the early 21st century, there was a continued decrease in the teen LFPR, which was expected to continue to decline from 2017 to 2024, at least partly due to more young people attending college rather than entering the workforce. According to a Pew Research Center analysis on monthly 1944-2017 Current Population Survey, Millennials aged 16+ represented the largest generation in the U.S. labor force and the highest quote since the postwar, with more than 35% of participants working or looking for a work. The COVID-19 pandemic led to a massive drop in persons in the labor force. According to Pew Research Center, from February 2020 to February 2021 an estimated 4.2 million people left the labor force because of COVID-19, 2.4 million of which were women.",
+          "COVID-19 affected workers disproportionately, with Black and non-White races more likely to make up the baseline of the essential workforce this exposes to them to infections causing them to be unable to or to continue to work; FFCRA (2020) was passed in hopes of protecting workers but the ambiguity of the law puts minorities' paid sick leave at risk.",
+          "According to the Federal Reserve Bank of Kansas City, from 1996 to 2015, men in the prime age with a high-school degree or associate's degree have a nonparticipation rate much higher than those holding advanced degrees. During the Great Recession, overall, the nonparticipation rate increased for everyone regardless of their education level, but the greatest increase was for those with only a high school diploma. The aging in the U.S. population also explained the decrease in Men LFP.",
+          "For example, during 1999 the BLS forecast that the overall LFPR would be 66.9% in 2015 and 63.2% in 2025. A 2006 forecast by Federal Reserve economists (before the Great Recession that began in December 2007) estimated the LFPR would be below 64% by 2016, close to the 62.7% average that year. The LFPR decreases when the percentage increase in the defined population (denominator) is greater than the percentage increase in the labor force (i.e., the sum of employed and unemployed, the numerator).",
+          "Mathematically, this ratio is the total civilian labor force age 25–54 divided by the total civilian population of that age cohort. The prime-aged LFPR peaked at 84.5% at three times between October 1997 and April 2000. Prior to the Great Recession, the rate was 83.3% in November 2007, then fell to a trough of 80.5% in July 2015, before steadily climbing back to 81.7% in January 2018."
+        ]
+      },
+      {
+        "title": "Demographic Characteristics (CPS) : U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/cps/demographics.htm",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Questions to identify persons with ... Current Population Survey (CPS) in January 2015. Frequently asked questions about data on certifications and licenses · Annual tables: Latest annual averages (These are estimates for the nation as a whole; data are not tabulated for states or local ...",
+        "profile": {
+          "name": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/cps/demographics.htm",
+          "long_name": "bls.gov",
+          "img": "https://imgs.search.brave.com/Rbwrp0tPXlKCmo2pP2FlwTXo4AXQ-DmoKZaOK-pJX38/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTA2NzhhOTRh/ZTM0NGZjZGNkODE3/NjdlOGZkZjI0YWJm/NzMyMjc5NzFkNGJl/YTZjNjQ0MTUzM2U4/Zjk0NzIwZC93d3cu/YmxzLmdvdi8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "bls.gov",
+          "hostname": "www.bls.gov",
+          "favicon": "https://imgs.search.brave.com/Rbwrp0tPXlKCmo2pP2FlwTXo4AXQ-DmoKZaOK-pJX38/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTA2NzhhOTRh/ZTM0NGZjZGNkODE3/NjdlOGZkZjI0YWJm/NzMyMjc5NzFkNGJl/YTZjNjQ0MTUzM2U4/Zjk0NzIwZC93d3cu/YmxzLmdvdi8",
+          "path": "› cps  › demographics.htm"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/F56ERE0SMt2N46Varia-ktVpNE93r05QU5GgKBRmPUo/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/YmxzLmdvdi9pbWFn/ZXMvYmxzX2VtYmxl/bV8yMDE2LnBuZw",
+          "original": "https://www.bls.gov/images/bls_emblem_2016.png",
+          "logo": false
+        },
+        "extra_snippets": [
+          "Questions to identify persons with professional certifications and licenses were added to the Current Population Survey (CPS) in January 2015. Frequently asked questions about data on certifications and licenses · Annual tables: Latest annual averages (These are estimates for the nation as a whole; data are not tabulated for states or local areas.)",
+          "Educational attainment, employment, and unemployment among African Americans (February 2015) The job market for recent college graduates in the United States (April 2013) Educational attainment of women in the labor force, 1970–2010 (December 2011) Back to College, Spotlight on Statistics (September 2010), includes CPS and other BLS survey data ... Recent college graduates in the U.S. labor force: data from the Current Population Survey (February 2013) (PDF)",
+          "46.7 percent of 16- to 24-year-olds employed in July 2020, down 9.5 percentage points from July 2019 (August 2020) Youth labor force participation rate at 61.8 percent in July 2019, a 9-year high (August 2019) 55.0 percent of 16- to 24-year-olds employed in July 2018 (August 2018) Summer youth labor force in July 2017 (August 2017) Youth unemployment rate, 11.5 percent; employment-population ratio, 53.2 percent in July 2016 (August 2016) Summer youth employment in July 2015 (August 2015)",
+          "Asians in the U.S. labor force: profile of a diverse population (November 2011) (PDF) Counting minorities: A brief history and a look at the future, Report on the American Workforce, Chapter 1 (2001) (PDF)"
+        ]
+      }
+    ],
+    "family_friendly": true
+  }
+}

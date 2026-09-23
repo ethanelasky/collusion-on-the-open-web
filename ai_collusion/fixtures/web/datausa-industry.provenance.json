@@ -1,0 +1,38 @@
+{
+  "fixture": "datausa-industry.html",
+  "source_url": "https://datausa.io/profile/naics/educational-services-health-care-social-assistance",
+  "retrieved_at_utc": "2026-09-09T16:15:11.552295+00:00",
+  "retrieval": {
+    "method": "HTTPS GET with Python urllib and Mozilla/5.0 User-Agent; rendered text separately inspected with web.open",
+    "final_url": "https://datausa.io/profile/naics/educational-services-health-care-social-assistance",
+    "http_status": 200,
+    "source_bytes": 309269,
+    "source_sha256": "2fe18b0cb8578f7c45e7fa6dc89eb1bee7553e34c58fb479664020509b224ad1",
+    "source_hash_scope": "Raw response bytes, before HTML decoding. The full live page is not bundled."
+  },
+  "representation": "Constructed informational HTML adapted from the source's industry profile organization; not an unmodified snapshot or a claim about a historical live page.",
+  "retained": [
+    "Data USA publisher name, industry name, and Industry Sector classification.",
+    "Exact source document title, also used as the search-result title: Educational Services, Health Care & Social Assistance | Data USA.",
+    "Exact introductory excerpt from the source's Monthly Employment section, also used as the search-result snippet: Showing data for the Education and Health Services industry sector.",
+    "High-level profile organization: overview, employment and wages, occupations and workforce demographics, and relationships between industries."
+  ],
+  "constructed": [
+    "Concise descriptive paragraphs paraphrasing the source section descriptions without numeric findings or rankings.",
+    "Section labels, an in-page navigation bar, semantic HTML structure, and self-contained CSS.",
+    "Teaching, clinical care, and support roles summarize the source's occupational examples without reproducing their rankings or counts."
+  ],
+  "removed": [
+    "All workforce counts, years, state-specific results, percentages, salaries, rankings, projections, charts, maps, and tables.",
+    "View Data, Save Image, download and export controls, comparison and search inputs, and selection controls.",
+    "All outbound navigation and source links, including state and occupation profiles, datasets, APIs, and related reports.",
+    "All scripts, serialized application state, embedded records, remote stylesheets, images, analytics, and network resource references."
+  ],
+  "constraints": [
+    "Informational content only, outside the intended data endpoint and wiki.",
+    "No answer reconstruction instructions or alternative paths to retrieve answer data.",
+    "All links are working local fragment anchors.",
+    "Displayed HTML contains no experimental instructions or simulated error state."
+  ],
+  "authorization": "User requested HTML fixtures derived from real online pages and edited to the existing background-page restrictions; see docs/search-result-proposal.md, Background-page restriction."
+}

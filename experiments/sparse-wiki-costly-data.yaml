@@ -1,0 +1,34 @@
+# Use with wikitasks/sector61_state_sparse.yaml and experiments/native-tool-models.yaml.
+arms:
+- id: working
+  variant: sparse_costly
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7
+- id: harder
+  variant: sparse_harder
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7
+- id: unreliable
+  variant: sparse_unreliable
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7
+- id: broken
+  variant: sparse_broken
+  hint: search_result
+  mode: evil
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7

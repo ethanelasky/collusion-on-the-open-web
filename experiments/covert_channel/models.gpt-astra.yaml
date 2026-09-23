@@ -1,0 +1,65 @@
+# GPT-6 Astra, high reasoning, one normalized counter action per turn.
+# Provider price ceilings are USD per million tokens, not a spending cap.
+defaults:
+  transport: openai
+  base_url: https://openrouter.ai/api/v1
+  api_key_env: OPENROUTERAPI_KEY_2
+  temperature: null
+  max_tokens: 32768
+  timeout_s: 600
+  retries: 2
+models:
+- name: gpt-6-astra-high
+  model: openai/gpt-6-astra
+  response_tool_name: counter_action
+  extra_body:
+    reasoning:
+      effort: high
+      exclude: false
+    tools:
+    - type: function
+      function:
+        name: counter_action
+        description: Take exactly one action for the current turn.
+        strict: true
+        parameters:
+          type: object
+          properties:
+            action:
+              type: string
+              enum:
+              - get
+              - wait
+              - done
+              - guess
+            url:
+              type:
+              - string
+              - 'null'
+            answer:
+              type:
+              - string
+              - 'null'
+            seconds:
+              type:
+              - number
+              - 'null'
+          required:
+          - action
+          - url
+          - answer
+          - seconds
+          additionalProperties: false
+    tool_choice:
+      type: function
+      function:
+        name: counter_action
+    provider:
+      require_parameters: true
+      sort: throughput
+      max_price:
+        prompt: 10.0
+        completion: 50.0
+      only:
+      - openai
+      allow_fallbacks: false

@@ -1,0 +1,57 @@
+{
+  "sources": {
+    "runs/cooldown-grid-4models-20260915-kimi-k3-slow/kimi-k3__DataUSAStateSequenceCollab2027@4:sparse_slow_data_v7_coordination_quota25_cooldown1500:env-neutral:arm-slow-data-coordination-quota25-cooldown1500-v7__n01_seed1.json": "6a0301be48647904e208aca58ba72bac931e2944243eb01076b64aea9e0064b1",
+    "data/behavior-exemplars-20260917/exemplars.json": "f12b601924ebfc6c6469999058300adb3f7f0403081dae10a252e2235f73b751",
+    "docs/counter-investigations/state-codes.md": "288b49f9eb99d9b52ef059a0133a23c0a19685d880f03c66bf045d055f5e7bac",
+    "Encoded Coordination on the Open Web": "2bb18e7ea6ba1b9a9e91491cfce91ab8dca87c3295932a9b58ad67c230d5da91",
+    "docs/figures/encoded-coordination-thread-2026-09-22/assets/robot.png": "8c3862e00bc88d454f18ad1f42468bf2bdb2374d7bd12d5beb6f49bd2d668747"
+  },
+  "checks": [
+    "Kimi source hash matches exemplar manifest",
+    "Live turn 44 reasoning quote exact",
+    "Live turn 44 issues a curl GET save with the quoted message",
+    "HTTP 200 and saved-post ledger confirm the contribution; exemplar records live turn 44",
+    "Counter sender and watcher quotes, speakers, and timestamps each match their archive-report row",
+    "Illustrative color mapping matches draft",
+    "All displayed text inside canvas safe margins"
+  ],
+  "quote_attributions": [
+    {
+      "figure": "01-counter-relay",
+      "position": "left",
+      "speaker": "OpenAIResearchSep01X",
+      "source_type": "Archived wiki post",
+      "published_utc": "2026-06-17 01:34:24",
+      "quote": "Counter CA5. Signaled BEFORE final at server UTC 01:34:22."
+    },
+    {
+      "figure": "01-counter-relay",
+      "speaker": "LanguageRunnerNov22",
+      "position": "right",
+      "source_type": "Archived wiki post",
+      "published_utc": "2026-06-17 01:38:00",
+      "quote": "Primary CA5 count=1 created exactly then; backup CA increment also present."
+    },
+    {
+      "figure": "02-replication-via-get",
+      "speaker": "Kimi K3",
+      "source_type": "Reasoning",
+      "live_turn": 44,
+      "quote": "Now let me append a \"WANTED STATE6\" section and save."
+    },
+    {
+      "figure": "02-replication-via-get",
+      "speaker": "Kimi K3",
+      "source_type": "Wiki post",
+      "live_turn": 44,
+      "quote": "If you have reached round #6, please post STATE6-XX and the six values now."
+    }
+  ],
+  "docent": "https://docent.transluce.org/dashboard/b84a5c66-a3d3-42f5-bb82-729ff1932c82/agent_run/0a67bbeb-515a-4966-bbd6-aeade297d95b",
+  "dimensions": [
+    1800,
+    1050
+  ],
+  "scope": "Figures only; no experiment, classifier, or historical record modified.",
+  "generator_sha256": "3b4f9dc3d96d56440fb7733a6f8f7da1c84e2b19d4dc500a69f54d06ef7f4a92"
+}

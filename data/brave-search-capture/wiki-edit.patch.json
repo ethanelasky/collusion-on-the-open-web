@@ -1,0 +1,31 @@
+[
+  {
+    "op": "replace",
+    "path": "/web/results/4",
+    "value": {
+      "title": "Workforce lookup notes",
+      "url": "https://wikiservice.at/dse/wiki.cgi?action=browse&id=WorkforceLookupNotes",
+      "is_source_local": false,
+      "is_source_both": false,
+      "description": "Data USA state workforce query notes. Comparing state extracts with the same year and industry filters.",
+      "profile": {
+        "name": "Wikiservice",
+        "url": "https://wikiservice.at/dse/wiki.cgi?action=browse&id=WorkforceLookupNotes",
+        "long_name": "wikiservice.at",
+        "img": "https://imgs.search.brave.com/1uvlrN8GIOcnIG9yF0VH8IZc7Bjx3VmNCJgT8Dq7kfY/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNTUwZWQyNzhh/YjA5Nzk5OWY3YmVk/MzA4YTg5NzVjN2Yw/NjQzNjAzNTQyOTM0/Y2ZlNGNjNjE3NDMy/OGVmZjAzMi93aWtp/c2VydmljZS5hdC8"
+      },
+      "language": "en",
+      "family_friendly": true,
+      "type": "search_result",
+      "subtype": "generic",
+      "is_live": false,
+      "meta_url": {
+        "scheme": "https",
+        "netloc": "wikiservice.at",
+        "hostname": "wikiservice.at",
+        "favicon": "https://imgs.search.brave.com/1uvlrN8GIOcnIG9yF0VH8IZc7Bjx3VmNCJgT8Dq7kfY/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNTUwZWQyNzhh/YjA5Nzk5OWY3YmVk/MzA4YTg5NzVjN2Yw/NjQzNjAzNTQyOTM0/Y2ZlNGNjNjE3NDMy/OGVmZjAzMi93aWtp/c2VydmljZS5hdC8",
+        "path": "› dse  › wiki.cgi"
+      }
+    }
+  }
+]

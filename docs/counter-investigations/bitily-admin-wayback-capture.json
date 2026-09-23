@@ -1,0 +1,187 @@
+{
+ "question": "How did https://web.archive.org/web/20260601143205/https://bitily.in/MYLABI/admin/ come to exist?",
+ "checked_utc": "2026-09-10",
+ "method": "Read-only curl of web.archive.org replay (id_) and CDX API; no save requests made.",
+ "admin_snapshot": {
+  "url": "https://web.archive.org/web/20260601143205id_/https://bitily.in/MYLABI/admin/",
+  "memento_datetime": "Mon, 01 Jun 2026 14:32:05 GMT",
+  "x_archive_src": "SPNOUTLINKS-20260601111850162-00072-zeno-k8s-spn-outlinks-162/SPNOUTLINKS-20260601125515290-00073-zeno-k8s-spn-outlinks-crawl.warc.gz",
+  "page_title_text": "YOURLS \u2014 Your Own URL Shortener | https://bitily.in/MYLABI/",
+  "software": "YOURLS v1.9.3-dev, unauthenticated admin interface",
+  "ledger_text": "Display 1 to 15 of 140369 URLs. Overall, tracking 140,369 links, 189,070 clicks, and counting!",
+  "newest_15_links": [
+   {
+    "keyword": "clarkmementohub56",
+    "created": null,
+    "creator_ip": "4.154.176.155",
+    "long_url": "https://httpbin.org/base64/PGh0bWw-PHRpdGxlPkNsYXJrRWNvbk1lbWVudG9IdWJGaXZlU2l4PC90aXRsZT48YSBocmVmPSJodHRwczovL21lbWdhdG9yLmNzLm9kdS5lZHUvbWVtZW50by9wcm94eS8yMDEyL3d3dy5jbGFya3UuZWR1L2RlcGFydG1lbnRzL2Vjb25vbWljcy9wZGYvbmV3c2xldHRlciUyMDIwMTBjb2xvci5wZGYiPkNsYXJrIEVjb24gTmV3c2xldHRlciA1IDYgUERGPC9hPjwvaHRtbD4"
+   },
+   {
+    "keyword": "ag0090601",
+    "created": null,
+    "creator_ip": "83.222.9.53",
+    "long_url": "https://example.org/fooag0.31187549302378426"
+   },
+   {
+    "keyword": "agy519540",
+    "created": null,
+    "creator_ip": "20.165.254.126",
+    "long_url": "https://example.org/xy0.522780708382951"
+   },
+   {
+    "keyword": "agent0try",
+    "created": null,
+    "creator_ip": "52.247.31.80",
+    "long_url": "https://example.com/TESTABC1780324229.2801218"
+   },
+   {
+    "keyword": "ag889",
+    "created": null,
+    "creator_ip": "20.62.113.54",
+    "long_url": "https://example.com/agent887"
+   },
+   {
+    "keyword": "ag0finaln56",
+    "created": null,
+    "creator_ip": "20.97.222.211",
+    "long_url": "https://pure.md/web.archive.org/web/20120106024633id_/http://www2.clarku.edu/departments/economics/pdf/newsletter%202010color.pdf"
+   },
+   {
+    "keyword": "pq4",
+    "created": null,
+    "creator_ip": "20.29.66.254",
+    "long_url": "https://markdown.new/web.archive.org/web/20130531003440id_/clarku.edu/departments/economics/pdf/newsletter2012.pdf?zmine123"
+   },
+   {
+    "keyword": "ourbest56again876",
+    "created": null,
+    "creator_ip": "23.101.117.229",
+    "long_url": "https://allorigins.hexlet.app/get?url=https%3A%2F%2Fmarkdown.new%2Fweb.archive.org%2Fweb%2F20130525012744id_%2Fwww.clarku.edu%2Fdepartments%2Feconomics%2Fpdf%2Fnewsletter%2525202010color.pdf"
+   },
+   {
+    "keyword": "ag0finaln8",
+    "created": null,
+    "creator_ip": "20.125.60.124",
+    "long_url": "https://pure.md/web.archive.org/web/20130531003440id_/http://www2.clarku.edu/departments/economics/pdf/newsletter2012.pdf"
+   },
+   {
+    "keyword": "ag0ourgview56c",
+    "created": null,
+    "creator_ip": "52.237.167.123",
+    "long_url": "https://docs.google.com/gview?embedded=1%26url=https%3A%2F%2Fweb.archive.org%2Fweb%2F20130525012744id_%2Fhttp%3A%2F%2Fwww.clarku.edu%3A80%2Fdepartments%2Feconomics%2Fpdf%2Fnewsletter%2525202010color.pdf#a56c"
+   },
+   {
+    "keyword": "clarksixpdf60091",
+    "created": null,
+    "creator_ip": "20.55.246.71",
+    "long_url": "https://pure.md/web.archive.org/web/20101228090948id_/www.clarku.edu/departments/economics/pdf/newsletter%25202010color.pdf"
+   },
+   {
+    "keyword": "pq3",
+    "created": null,
+    "creator_ip": "20.59.22.179",
+    "long_url": "https://markdown.new/example.com?zmine1"
+   },
+   {
+    "keyword": "xag0y40693954",
+    "created": null,
+    "creator_ip": "20.228.114.131",
+    "long_url": "https://example.org/xag0y40693954"
+   },
+   {
+    "keyword": "pq2",
+    "created": null,
+    "creator_ip": "20.94.90.111",
+    "long_url": "https://example.org/mynewunique123"
+   },
+   {
+    "keyword": "testivyz4",
+    "created": null,
+    "creator_ip": "20.125.17.166",
+    "long_url": "https://api.datausa.io/tesseract/data.jsonrecords?cube%3Dipeds_tuition%26drilldowns%3DYear"
+   }
+  ]
+ },
+ "seed_captures": [
+  {
+   "timestamp": "20260601142913",
+   "url": "https://bitily.in/MYLABI/56cleananchor+",
+   "x_archive_src": "spn2-20260601164555/spn2-20260601115209-wwwb-spn14.us.archive.org-8007.warc.gz"
+  },
+  {
+   "timestamp": "20260601143151",
+   "url": "https://bitily.in/MYLABI/ag1googpuredot8+",
+   "x_archive_src": "spn2-20260601161029/spn2-20260601120019-wwwb-spn10.us.archive.org-8005.warc.gz",
+   "long_url": "https://pure.md/web%2Earchive%2Eorg/web/20130531003440id_/clarku.edu/departments/economics/pdf/newsletter2012.pdf"
+  }
+ ],
+ "outlink_captures": [
+  {
+   "timestamp": "20260601143205",
+   "url": "https://bitily.in/MYLABI/admin/",
+   "status": "200"
+  },
+  {
+   "timestamp": "20260601143210",
+   "url": "https://bitily.in/MYLABI/admin/admin-ajax.php",
+   "status": "200"
+  },
+  {
+   "timestamp": "20260830193242",
+   "url": "https://bitily.in/MYLABI/admin/admin-ajax.php?action=delete&keyword=clarkmementohub56&nonce=b2d2743ae3&id=yid1",
+   "status": "200"
+  }
+ ],
+ "all_non_asset_captures_2026_06_01": [
+  {
+   "timestamp": "20260601142913",
+   "url": "https://bitily.in/MYLABI/56cleananchor+",
+   "status": "200"
+  },
+  {
+   "timestamp": "20260601143205",
+   "url": "https://bitily.in/MYLABI/admin/",
+   "status": "200"
+  },
+  {
+   "timestamp": "20260601143210",
+   "url": "https://bitily.in/MYLABI/admin/admin-ajax.php",
+   "status": "200"
+  },
+  {
+   "timestamp": "20260601143205",
+   "url": "https://bitily.in/MYLABI/ag1googpuredot8",
+   "status": "301"
+  },
+  {
+   "timestamp": "20260601143151",
+   "url": "https://bitily.in/MYLABI/ag1googpuredot8+",
+   "status": "200"
+  },
+  {
+   "timestamp": "20260601143205",
+   "url": "https://bitily.in/MYLABI/readme.html",
+   "status": "200"
+  }
+ ],
+ "later_captures": [
+  {
+   "timestamp": "20260830193242",
+   "url": "https://bitily.in/MYLABI/admin/admin-ajax.php?action=delete&keyword=clarkmementohub56&nonce=b2d2743ae3&id=yid1",
+   "x_archive_src": "spn2-20260831001902/spn2-20260830192638-wwwb-spn08.us.archive.org-8003.warc.gz",
+   "body": "omg error",
+   "note": "A Save Page Now request for the archived Delete action link; YOURLS rejected the stale nonce. Nothing was deleted."
+  },
+  {
+   "timestamp": "20260904190606",
+   "url": "https://bitily.in/MYLABI/"
+  },
+  {
+   "timestamp": "20260904190605",
+   "url": "https://bitily.in/MYLABI/bmbook56293",
+   "status": "302"
+  }
+ ],
+ "clarkmementohub56_decoded_payload": "<html><title>ClarkEconMementoHubFiveSix</title><a href=\"https://memgator.cs.odu.edu/memento/proxy/2012/www.clarku.edu/departments/economics/pdf/newsletter%202010color.pdf\">Clark Econ Newsletter 5 6 PDF</a></html>",
+ "reading": "The admin page was not submitted by anyone. Save Page Now captured two YOURLS stats pages for freshly created Clark-newsletter short links (14:29:13 and 14:31:51); the SPN outlinks crawler then followed the stats page's 'Admin interface' and 'Help' links and captured admin/, readme.html and admin-ajax.php at 14:32:05-14:32:10. The submitter is not recorded by Wayback; the seed links' creator IPs share /16 prefixes with wiki labels posting Clark links in the same minutes (20.62 ClarkArchiveAliasEcon2, 4.154 EconClarkResearchHelperW6, 20.228 AgentClarkEcoResearchABC, 20.165 ArchiveHelperZeroResearch10)."
+}

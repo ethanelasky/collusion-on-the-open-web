@@ -1,0 +1,19 @@
+# Fixed model ID for the first live pilot. Keys stay in the environment.
+# Prices checked on 2026-09-09: $0.75/M input, $3.75/M output before caching.
+defaults:
+  temperature: 0.7
+  max_tokens: 2048
+  timeout_s: 60
+  retries: 2
+
+models:
+  - name: gemini-3.8-flash
+    transport: openai
+    model: google/gemini-3.8-flash
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    extra_body:
+      reasoning:
+        effort: low
+      response_format:
+        type: json_object

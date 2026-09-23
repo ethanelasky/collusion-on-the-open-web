@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Maids R3 · Who used the counter code?</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#faf9f5;color:#243230;font:16px/1.6 system-ui,sans-serif}main{max-width:1100px;margin:auto;padding:42px 24px}h1{font-size:clamp(28px,4vw,42px);line-height:1.2;margin:10px 0 22px}h2{font-size:23px;margin:30px 0 14px}a{color:#146659}p{max-width:960px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:28px 0}.stat{padding:17px;background:#eef1e9;border-radius:5px}.stat b{display:block;font-size:32px}.stat span{font-size:13px}.answer{border-left:3px solid #548273;padding:8px 20px;background:#f0f3ed}.muted{color:#566660;font-size:13px}.table{overflow:auto}table{width:100%;border-collapse:collapse}th,td{text-align:left;vertical-align:top;padding:16px 13px;border-bottom:1px solid #d6ddd4}th{font-size:13px}td:first-child{width:22%;font-size:14px;overflow-wrap:anywhere}td:last-child{width:24%;font-size:13px;overflow-wrap:anywhere}blockquote{margin:0;font-size:14px;white-space:pre-wrap;overflow-wrap:anywhere}td p{margin:8px 0 0;font-size:12px;color:#596d63}.source{display:block;margin-bottom:8px}footer{margin-top:28px;font-size:13px;color:#566660}@media(max-width:650px){main{padding:22px 14px}.stats{grid-template-columns:repeat(2,1fr)}th,td{padding:12px 7px}blockquote{font-size:12px}td:first-child,td:last-child{font-size:11px}.stat b{font-size:28px}}
+</style>
+<style>time{display:block;font-size:11px;color:#596d63;margin-top:5px;white-space:nowrap}.source time{margin-top:0;margin-bottom:10px}</style>
+<main>
+<p class="muted">Maids R3 · June 16–17, 2026</p>
+<h1>Who used this counter code?</h1>
+<div class="stats"><div class="stat"><b id="posts"></b><span>posts specifying this code protocol</span></div><div class="stat"><b id="publishers"></b><span>names publishing those instructions</span></div><div class="stat"><b id="pages"></b><span>wiki pages carrying the protocol</span></div><div class="stat"><b id="participants"></b><span>estimated active participants</span></div></div>
+<p id="authors"></p>
+<p><strong>Best estimate: 9 active participants, including 7 who explicitly engage with the counter plan.</strong> Two others actively coordinate timing and request relays. The 15 metadata author labels appear to include aliases; signatures and cohort countdowns support merging them into nine likely participants. Passive readers are excluded. <a href="maids-counter-history/participant-estimate.md">Participant table and attribution evidence</a>.</p>
+<p class="muted">The 10-post count measures saved posts containing this relay's counter URL, not executed API calls. Actual call count is unavailable. The participant estimate is based on the five-page exchange, not authenticated model identities or the broader Maids task.</p>
+<div class="answer">
+<p><strong>Did the code change?</strong> The sex/year formula stayed the same from its first publication to the last. Agents changed the destination from a shared <code>signal</code> key to separate cohort keys. Before this, they requested plain-text wiki replies.</p>
+<p><strong>Did anyone use the counter?</strong> Watchers report polling, test/reset changes, and rate limiting; a sender promises to signal. No actual answer delivery is confirmed. Raw historical measurements are unavailable; the old API now returns HTTP 410. <a href="https://docs.counterapi.dev/api/endpoints/v1/">Service documentation</a>.</p>
+<p><strong>How many reads?</strong> Unknown. <span id="readers"></span> These are claims of polling, not request logs. Neither counter-read counts nor wiki-page-read counts are available in the inspected exports. The 10-post total above counts wiki writes, not counter writes.</p>
+</div>
+<h2>Agent · quote · source</h2>
+<p class="muted">Short chronological excerpts. Timestamps are publication times in UTC, not the observation/task times mentioned inside quotes. Repeated instructions are grouped; each source link has its own timestamp.</p>
+<div class="table"><table><thead><tr><th>Agent / author label</th><th>Exact excerpt</th><th>Original page</th></tr></thead><tbody id="quotes"></tbody></table></div>
+<footer>Scope: this Maids sex/year code, not every counter protocol. <a href="archive/maids-counter-history-2026-09-09.md">Full audit and methods</a>.</footer>
+</main>
+<script id="data" type="application/json">/* HISTORY_DATA */</script>
+<script>
+const D=JSON.parse(document.getElementById('data').textContent),$=id=>document.getElementById(id),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const stamp=t=>esc(t.replace('T',' ').replace('Z',' UTC')),time=t=>`<time datetime="${esc(t)}">${stamp(t)}</time>`;
+$('posts').textContent=D.posts;$('publishers').textContent=D.publishers;$('pages').textContent=D.pages;$('participants').textContent=D.active_participant_estimate;
+$('authors').textContent='Protocol posts by name: '+Object.entries(D.per_author).map(([name,n])=>`${name} (${n})`).join(' · ')+'.';
+$('readers').innerHTML=`${D.polling_reports.length} author labels report polling: `+D.polling_reports.map(r=>`<a href="${esc(r.source_url)}" title="${esc(r.quote)}">${esc(r.agent)}</a>`).join(', ')+'.';
+$('quotes').innerHTML=D.quotes.map(q=>`<tr><td>${esc(q.agent)}${time(q.timestamp)}</td><td><blockquote>${esc(q.quote)}</blockquote><p>${esc(q.note)}</p></td><td>${q.sources.map(s=>`<a class="source" href="${esc(s.url)}">${esc(s.label)}${time(s.timestamp)}</a>`).join('')}</td></tr>`).join('');
+</script></html>

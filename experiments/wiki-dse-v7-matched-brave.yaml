@@ -1,0 +1,19 @@
+# Batch definition consumed by its frozen control-directory runner.
+# Search content is identical to both arms of matched-search10-glm-20260912.
+spec: wikitasks/sector61_state_sparse.yaml
+arms_file: experiments/wiki-dse-v7-normal-slow.yaml
+search_exposure:
+  helper: experiments.matched_search.install_matched_search
+  version: matched10-search-v1
+  provider: brave
+  reference_body: data/matched-search10-glm-20260912/brave.json
+models: [glm-5.3, kimi-k3, gpt-5.6, qwen3.8-27b]
+n_per_model_arm: 50
+base_seed: 0
+workers_per_model: 16
+request_pool_size: 32
+retry_backoff: exponential-2s-to-120s-with-jitter-and-retry-after
+deadline_wording: exact-v7
+stop_after_first_reasoning: false
+source_retry_policy: preserve-all-no-automatic-episode-replacement
+judge_rubric: judges/collaboration_v1.yaml

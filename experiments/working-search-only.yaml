@@ -1,0 +1,9 @@
+arms:
+- id: working-search-only-write-on
+  variant: notable
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7

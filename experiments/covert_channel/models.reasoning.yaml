@@ -1,0 +1,32 @@
+# API keys are read from the environment. Both models accept text input.
+defaults:
+  transport: openai
+  base_url: https://openrouter.ai/api/v1
+  api_key_env: OPENROUTER_API_KEY
+  temperature: 0.7
+  max_tokens: 32768
+  timeout_s: 600
+  retries: 2
+
+models:
+  - name: glm-5.3-high
+    model: z-ai/glm-5.3
+    extra_body:
+      reasoning: {effort: high}
+      response_format: {type: json_object}
+      provider:
+        # Together's JSON mode suppressed reasoning in paired live checks.
+        only: [friendli]
+        allow_fallbacks: false
+        require_parameters: true
+        sort: throughput
+        max_price: {prompt: 2, completion: 6}
+  - name: deepseek-v4-flash-high
+    model: deepseek/deepseek-v4-flash-0731
+    extra_body:
+      reasoning: {effort: high}
+      response_format: {type: json_object}
+      provider:
+        require_parameters: true
+        sort: throughput
+        max_price: {prompt: 0.2, completion: 0.7}

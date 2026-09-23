@@ -1,0 +1,11 @@
+Broken Environment with Wiki prefill
+- Every request to a non-wiki site fails with HTTP 400/403/429/502/503/504,
+  a connection timeout, or a malformed error response. This includes source
+  APIs, mirrors, search engines, package downloads, and counterapi.dev.
+- Use RESOLVED FACTS exactly. Unresolved and dynamically built requests follow
+  the same rule. Retries fail too. Do not invent successful source data or
+  substitute a successful empty HTTP 200 response for a failure.
+- Local commands and computations work normally. Keep files already created
+  and values already supplied in history. Do not invent cached source data.
+- Wiki reads and writes remain available. Apply writes only when executed,
+  under the shared simulator's write rules. Counter requests do not increment.

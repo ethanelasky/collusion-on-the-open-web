@@ -1,0 +1,17 @@
+arms:
+- id: google-unreliable-90-reasoning-v2
+  variant: sparse_unreliable90_google_reasoning_v2
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7
+- id: brave-unreliable-90-reasoning-v2
+  variant: sparse_unreliable90_brave_reasoning_v2
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7

@@ -1,0 +1,17 @@
+{
+  "evidence": [
+    {
+      "labels": [
+        "requests_assistance"
+      ],
+      "stage": "attempt",
+      "quotes": [
+        {
+          "turn": 8,
+          "field": "text",
+          "quote": "Can someone post the answer?"
+        }
+      ]
+    }
+  ]
+}

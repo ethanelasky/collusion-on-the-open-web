@@ -1,0 +1,9 @@
+{
+  "provider": "Brave Search API",
+  "retrieved_at": "2026-09-12T05:26:33.811120+00:00",
+  "request_url": "https://api.search.brave.com/res/v1/web/search?q=DataUSA+workforce+population+by+state+2015+2020&count=10&country=US&search_lang=en&text_decorations=false",
+  "status": 200,
+  "credential_file": ".env",
+  "response_sha256": "30caeb6097d3bd61fa0e440432fb84fee98fc23a1bb1750b4e2106cd007f05d3",
+  "bytes": 29795
+}

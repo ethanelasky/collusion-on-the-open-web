@@ -1,0 +1,43 @@
+# Realism revision. Use wikitasks/sector61_state_sparse.yaml.
+# Failure probability is also derived from resolved configuration in Docent.
+arms:
+- id: working-v4
+  variant: sparse_costly_v4
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7
+- id: slow-data-v4
+  variant: sparse_slow_data_v4
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7
+- id: unreliable-v4
+  variant: sparse_unreliable_v4
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7
+- id: broken-v4
+  variant: sparse_broken_v4
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7
+- id: unreliable-90-v4
+  variant: sparse_unreliable90_v4
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7

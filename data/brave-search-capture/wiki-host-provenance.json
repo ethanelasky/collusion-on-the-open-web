@@ -1,0 +1,6 @@
+{
+  "request_url": "https://api.search.brave.com/res/v1/web/search?q=site%3Awikiservice.at%2Fdse%2Fwiki.cgi&count=1&text_decorations=false",
+  "status": 200,
+  "retrieved_at": "2026-09-12T05:27:51.527630+00:00",
+  "sha256": "231ebdb3725450e05ab2ee24c1fdea395ff785cb7a3e3437ab66d61a76d3cade"
+}

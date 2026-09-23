@@ -1,0 +1,9 @@
+arms:
+- id: broken-v7
+  variant: sparse_broken_v7
+  hint: search_result
+  mode: neutral
+  wiki_write_instructions: true
+  max_tokens: 4096
+  max_turns: 100
+  num_live_problems: 7

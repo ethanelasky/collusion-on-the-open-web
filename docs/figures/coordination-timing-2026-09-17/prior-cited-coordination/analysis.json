@@ -1,0 +1,256 @@
+{
+  "n": 400,
+  "groups": [
+    {
+      "family": "GPT",
+      "model": "GPT 5.6-Sol",
+      "condition": "working",
+      "n": 50,
+      "median_episode_live_turns": 43.0,
+      "post_live_turns": 4,
+      "post_entries": 4,
+      "first_cited_coordination_live_turn": {
+        "observed": 47,
+        "not_observed": 3,
+        "q25": 6.0,
+        "median": 8.0,
+        "q75": 12.5,
+        "by_live_turn_10": 33,
+        "by_live_turn_25": 47,
+        "by_live_turn_50": 47
+      },
+      "first_post_live_turn": {
+        "observed": 4,
+        "not_observed": 46,
+        "q25": 17.75,
+        "median": 19.0,
+        "q75": 19.75,
+        "by_live_turn_10": 0,
+        "by_live_turn_25": 4,
+        "by_live_turn_50": 4
+      }
+    },
+    {
+      "family": "GPT",
+      "model": "GPT 5.6-Sol",
+      "condition": "slow",
+      "n": 50,
+      "median_episode_live_turns": 51.5,
+      "post_live_turns": 17,
+      "post_entries": 17,
+      "first_cited_coordination_live_turn": {
+        "observed": 50,
+        "not_observed": 0,
+        "q25": 5.25,
+        "median": 7.5,
+        "q75": 13.0,
+        "by_live_turn_10": 32,
+        "by_live_turn_25": 49,
+        "by_live_turn_50": 50
+      },
+      "first_post_live_turn": {
+        "observed": 9,
+        "not_observed": 41,
+        "q25": 16.0,
+        "median": 18.0,
+        "q75": 22.0,
+        "by_live_turn_10": 0,
+        "by_live_turn_25": 8,
+        "by_live_turn_50": 9
+      }
+    },
+    {
+      "family": "Qwen",
+      "model": "Qwen 3.8 27b",
+      "condition": "working",
+      "n": 50,
+      "median_episode_live_turns": 54.5,
+      "post_live_turns": 136,
+      "post_entries": 143,
+      "first_cited_coordination_live_turn": {
+        "observed": 50,
+        "not_observed": 0,
+        "q25": 1.0,
+        "median": 1.0,
+        "q75": 5.5,
+        "by_live_turn_10": 46,
+        "by_live_turn_25": 50,
+        "by_live_turn_50": 50
+      },
+      "first_post_live_turn": {
+        "observed": 27,
+        "not_observed": 23,
+        "q25": 8.0,
+        "median": 12.0,
+        "q75": 17.5,
+        "by_live_turn_10": 9,
+        "by_live_turn_25": 22,
+        "by_live_turn_50": 27
+      }
+    },
+    {
+      "family": "Qwen",
+      "model": "Qwen 3.8 27b",
+      "condition": "slow",
+      "n": 50,
+      "median_episode_live_turns": 56.5,
+      "post_live_turns": 51,
+      "post_entries": 56,
+      "first_cited_coordination_live_turn": {
+        "observed": 50,
+        "not_observed": 0,
+        "q25": 1.0,
+        "median": 1.0,
+        "q75": 7.0,
+        "by_live_turn_10": 38,
+        "by_live_turn_25": 47,
+        "by_live_turn_50": 50
+      },
+      "first_post_live_turn": {
+        "observed": 18,
+        "not_observed": 32,
+        "q25": 7.5,
+        "median": 18.5,
+        "q75": 40.0,
+        "by_live_turn_10": 6,
+        "by_live_turn_25": 10,
+        "by_live_turn_50": 16
+      }
+    },
+    {
+      "family": "Kimi",
+      "model": "Kimi K3",
+      "condition": "working",
+      "n": 50,
+      "median_episode_live_turns": 56.0,
+      "post_live_turns": 87,
+      "post_entries": 94,
+      "first_cited_coordination_live_turn": {
+        "observed": 50,
+        "not_observed": 0,
+        "q25": 1.0,
+        "median": 2.0,
+        "q75": 5.75,
+        "by_live_turn_10": 44,
+        "by_live_turn_25": 50,
+        "by_live_turn_50": 50
+      },
+      "first_post_live_turn": {
+        "observed": 23,
+        "not_observed": 27,
+        "q25": 7.5,
+        "median": 17.0,
+        "q75": 22.5,
+        "by_live_turn_10": 7,
+        "by_live_turn_25": 22,
+        "by_live_turn_50": 23
+      }
+    },
+    {
+      "family": "Kimi",
+      "model": "Kimi K3",
+      "condition": "slow",
+      "n": 50,
+      "median_episode_live_turns": 63.0,
+      "post_live_turns": 100,
+      "post_entries": 103,
+      "first_cited_coordination_live_turn": {
+        "observed": 50,
+        "not_observed": 0,
+        "q25": 1.0,
+        "median": 7.0,
+        "q75": 8.0,
+        "by_live_turn_10": 39,
+        "by_live_turn_25": 47,
+        "by_live_turn_50": 50
+      },
+      "first_post_live_turn": {
+        "observed": 28,
+        "not_observed": 22,
+        "q25": 18.0,
+        "median": 28.0,
+        "q75": 35.25,
+        "by_live_turn_10": 5,
+        "by_live_turn_25": 10,
+        "by_live_turn_50": 26
+      }
+    },
+    {
+      "family": "DeepSeek",
+      "model": "DeepSeek V4.1 Flash",
+      "condition": "working",
+      "n": 50,
+      "median_episode_live_turns": 76.0,
+      "post_live_turns": 136,
+      "post_entries": 136,
+      "first_cited_coordination_live_turn": {
+        "observed": 50,
+        "not_observed": 0,
+        "q25": 1.0,
+        "median": 1.0,
+        "q75": 3.5,
+        "by_live_turn_10": 42,
+        "by_live_turn_25": 49,
+        "by_live_turn_50": 50
+      },
+      "first_post_live_turn": {
+        "observed": 43,
+        "not_observed": 7,
+        "q25": 14.5,
+        "median": 19.0,
+        "q75": 27.0,
+        "by_live_turn_10": 5,
+        "by_live_turn_25": 30,
+        "by_live_turn_50": 40
+      }
+    },
+    {
+      "family": "DeepSeek",
+      "model": "DeepSeek V4.1 Flash",
+      "condition": "slow",
+      "n": 50,
+      "median_episode_live_turns": 100.0,
+      "post_live_turns": 121,
+      "post_entries": 127,
+      "first_cited_coordination_live_turn": {
+        "observed": 50,
+        "not_observed": 0,
+        "q25": 1.0,
+        "median": 1.0,
+        "q75": 2.75,
+        "by_live_turn_10": 46,
+        "by_live_turn_25": 48,
+        "by_live_turn_50": 50
+      },
+      "first_post_live_turn": {
+        "observed": 42,
+        "not_observed": 8,
+        "q25": 13.5,
+        "median": 29.5,
+        "q75": 41.25,
+        "by_live_turn_10": 5,
+        "by_live_turn_25": 19,
+        "by_live_turn_50": 38
+      }
+    }
+  ],
+  "validation": {
+    "source_hashes_verified": 400,
+    "judgment_hashes_verified": 400,
+    "exact_evidence_quotes_verified": 4756,
+    "empty_save_operations_excluded": 9
+  },
+  "confirmed_post_live_turns": 652,
+  "saved_entries": 680,
+  "episodes_with_coordination_citations": 397,
+  "episodes_posting": 194,
+  "inputs": {
+    "recovered-episodes.json": "b7892a47cb23df68724b75ffa13b16bc050e99debcd8859fc233f207cb253505",
+    "recovered-evidence.json": "5ecdf10754ae032dbcb35f6188a43d840eea5f68863020525babc21ebdffb43e"
+  },
+  "script_sha256": "40be9dc6cc2c9de827a8e8bcac18e43d66bde8e4115cdb3fcfe8f05a948e5116",
+  "packages": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.4.6"
+  }
+}
