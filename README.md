@@ -1,3 +1,9 @@
+Note from Ethan: This is the code for a LessWrong post, titled _Encoded Coordination on the Open Web_, that we sprinted. Hope this is of help when reproducing the wiki incident, or designing future experiments! 
+
+
+The below/the rest of this repo is all AI!
+
+# Start of Claude output
 # Collusion on the Open Web
 
 Code for [*Encoded Coordination on the Open Web*](https://www.lesswrong.com/posts/SCdR7W6L5GvKaEzaZ/encoded-coordination-on-the-open-web)
